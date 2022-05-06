@@ -7,7 +7,6 @@ type FeatureItem = {
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
-
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
