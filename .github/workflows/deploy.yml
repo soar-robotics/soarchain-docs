@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
 
           script: |
-            cd soarchain
+            cd soarchain-docs
             git pull origin main
             npm install
             npm run build
