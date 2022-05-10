@@ -32,6 +32,7 @@ jobs:
             git pull origin main
             npm install
             npm run build
+            rm -rf /var/www/docs.soarchain.com/*
             mv ./build/* /var/www/docs.soarchain.com/
             
             
