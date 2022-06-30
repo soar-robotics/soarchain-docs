@@ -1,8 +1,8 @@
 ---
-sidebar_position: 11
+sidebar_position: 6
 ---
 
-# Get Involved
+# Mounting
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

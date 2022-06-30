@@ -1,8 +1,8 @@
 ---
-sidebar_position: 11
+sidebar_position: 2
 ---
 
-# Get Involved
+# Get Started with SCOBU
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

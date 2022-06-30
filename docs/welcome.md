@@ -1,8 +1,8 @@
 ---
-sidebar_position: 11
+sidebar_position: 1
 ---
 
-# Get Involved
+# Welcome to soarchain
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

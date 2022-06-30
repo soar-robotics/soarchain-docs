@@ -1,8 +1,8 @@
 ---
-sidebar_position: 11
+sidebar_position: 3
 ---
 
-# Get Involved
+# Mobile App
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

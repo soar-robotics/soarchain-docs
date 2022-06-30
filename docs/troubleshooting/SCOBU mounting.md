@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
-id: hello-ci
-title: Hello CI/CD
+id: SCOBU-mount
+title: SCOBU mounting
 ---
 
 # Hello CI / CD
