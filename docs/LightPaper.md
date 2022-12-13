@@ -84,7 +84,7 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/whitepaper/data-spaces/"
+          href="/api"
           class="card-title card-link stretched-link"
         >
           <h2>Smart </h2>
@@ -95,7 +95,7 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/whitepaper/dataverse/"
+          href="/releases"
           class="card-title card-link stretched-link"
         >
           <h2>bla bla</h2>
@@ -114,7 +114,7 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/nodes/introduction"
+          href="/intro"
           class="card-title card-link stretched-link"
         ><h2>Tutorials</h2></a>
         <p class="card-text">
@@ -125,7 +125,7 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/nodes/join-testnet"
+          href="https://docs.cosmwasm.com/docs/1.0/architecture/actor"
           class="card-title card-link stretched-link"
         ><h2>Deploy a contract</h2></a>
         <p class="card-text">
