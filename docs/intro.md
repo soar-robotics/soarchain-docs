@@ -1,5 +1,7 @@
 ---
-sidebar_position: 2
+slug: /
+sidebar_position: 0
+hidden: false
 ---
 
 # Welcome to Soarchain

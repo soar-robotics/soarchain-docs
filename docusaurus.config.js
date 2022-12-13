@@ -33,8 +33,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/soar-robotics/soarchain-docs',
+          editUrl:
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           routeBasePath: "/",
         },
         blog: false,
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'SoarChain',
+        title: 'Soarchain Docs',
         logo: {
           alt: 'Soar',
           src: 'img/favicon-96x96.png',
@@ -80,16 +80,18 @@ const config = {
             ],
           },
           {
-            href: 'https://discord.gg/okp4',
+            href: 'https://discord.gg/eKUXe2VT',
             position: 'right',
-            className: 'header-discord-link',
-            'aria-label': 'Discord'
+            className: 'header-www-link',
+            title: 'Soarchan Discord',
+            'aria-label': 'Soarchain Discord',
           },
           {
-            href: 'https://github.com/okp4',
+            href: 'https://github.com/soar-robotics',
             position: 'right',
             className: 'header-github-link',
-            'aria-label': 'GitHub repository'
+            title: 'GitHub repository',
+            'aria-label': 'GitHub repository',
           }
 
 

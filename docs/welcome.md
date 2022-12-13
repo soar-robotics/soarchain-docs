@@ -1,8 +1,8 @@
 ---
-slug: /
-hidden: false
-sidebar_position: 0
+
+sidebar_position: 2
 hide_table_of_contents: true
+hidden: false
 
 ---
 
