@@ -1,8 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
 ---
 
-# Privacy
+# Network Architecture
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

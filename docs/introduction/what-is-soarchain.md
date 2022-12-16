@@ -1,8 +1,12 @@
 ---
-sidebar_position: 11
+
+sidebar_position: 2
+hide_table_of_contents: true
+hidden: false
+
 ---
 
-# Releases
+# What is Soarchain?
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

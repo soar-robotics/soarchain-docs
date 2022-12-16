@@ -2,11 +2,11 @@
 sidebar_position: 3
 ---
 
-# Mobile App
+# Challangers
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-# Getting Started
+## Getting Started
 
 Get started by **creating a new site**.
 

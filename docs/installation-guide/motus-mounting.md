@@ -1,12 +1,12 @@
 ---
-sidebar_position: 11
+sidebar_position: 2
 ---
 
-# Releases
+# MOTUS Mounting
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+# Getting Started
 
 Get started by **creating a new site**.
 

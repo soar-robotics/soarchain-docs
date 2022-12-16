@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
-# SCOBU features
+# Collective Perception
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

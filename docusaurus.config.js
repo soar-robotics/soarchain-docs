@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SoarChain Documentation',
+  title: 'Home',
   tagline: 'Future mobility',
   url: 'https://github.com/soar-robotics/soarchain-docs',
   baseUrl: '/',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Soar Robotics', // Usually your GitHub org/user name.
-  projectName: 'SoarChain', // Usually your repo name.
+  projectName: 'Soarchain', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Soarchain Docs',
+        title: 'Soarchain',
         logo: {
           alt: 'Soar',
           src: 'img/favicon-96x96.png',

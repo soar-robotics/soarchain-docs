@@ -5,7 +5,7 @@ sidebar_position: 0
 hide_table_of_contents: true
 ---
 
-# Soarchain Documentation
+# Home
 
 
 <div class="docs-card-container">

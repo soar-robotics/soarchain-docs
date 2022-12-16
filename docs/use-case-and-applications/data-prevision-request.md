@@ -1,10 +1,8 @@
 ---
-
-sidebar_position: 10
-hidden: false
+sidebar_position: 6
 ---
 
-# Welcome to Soarchain
+# Data Provision Request
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

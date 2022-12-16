@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Connectivity Api
+# FAQ-1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

@@ -1,8 +1,10 @@
 ---
-sidebar_position: 11
+
+sidebar_position: 7
+hidden: false
 ---
 
-# Releases
+# Block Explorer
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

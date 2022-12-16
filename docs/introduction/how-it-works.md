@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 ---
 
-# Mounting
+# How it Works?
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

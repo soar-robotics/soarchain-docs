@@ -1,12 +1,8 @@
 ---
-
-sidebar_position: 2
-hide_table_of_contents: true
-hidden: false
-
+sidebar_position: 1
 ---
 
-# Get involved
+# Road Safety
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
