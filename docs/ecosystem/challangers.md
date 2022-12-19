@@ -4,44 +4,12 @@ sidebar_position: 3
 
 # Challangers
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## V2V Challengers
+#### Vehicle-to-Vehicle Challengers
 
-## Getting Started
+This is a node that expects data to be verified from a V2V receiver that claims to have generated an array of specific messages. V2V challengers can be run on Motus devices, smartphones, and any type of resource-constrained device, and anyone can stake a small amount of tokens to become a V2V challenger. Challengers receive the challenge requests from the participating nodes according to their score, which is calculated through a formula that takes their uptime and integrity into account. 
 
-Get started by **creating a new site**.
+## V2N Challengers
+#### Vehicle-to-Network Challengers
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This is a node that expects data to be verified from a Runner that claims to have generated an array of specific messages. V2N challengers can be run on Motus devices, smartphones, and any type of resource-constrained device, and anyone can stake a small amount of tokens to become a V2N challenger. Challengers receive the challenge requests from the participating nodes according to their score, which is calculated through a formula that takes their uptime and integrity into account. 

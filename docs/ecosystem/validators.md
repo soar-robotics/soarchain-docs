@@ -4,44 +4,8 @@ sidebar_position: 4
 
 # Validators
 
-Let's discover **Docusaurus in less than 5 minutes**.
+A validator is a special type of node that is responsible for participating in the consensus process to reach agreement on the state of the blockchain. Validators can be thought of as the “miners” of the blocks, as they are responsible for ensuring the integrity and security of the network. Validators are chosen by the community through a staking process, and they are rewarded for their participation in the consensus process. 
 
-## Getting Started
+Soarchain is a public Proof-Of-Stake (PoS) blockchain, which means that the weight of validators is based on the quantity of staking tokens ($MOTUS) bonded as collateral. These MOTUS tokens may be self-delegated by the validator or delegated by other MOTUS holders to the validator.
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+By sending a create-validator transaction, every user in the system can declare their intention to become validator candidates. A validator's weight (voting power) decides whether they are an active validator. The active validator set is restricted to an amount which may slightly change over time.

@@ -4,44 +4,17 @@ sidebar_position: 2
 
 # Road Users
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Four-wheelers
 
-## Getting Started
+In recent years, vehicles have become increasingly equipped with sensors, cameras, and computers, almost like moving servers with perception and communication abilities. As a result, the vehicle paradigm is changing as vehicles are becoming more software-defined. 
 
-Get started by **creating a new site**.
+This shift is opening up new business opportunities and revenues, as well as enabling game-changing features such as zero-accidents and autonomous driving. These advanced technologies are transforming the way we think about transportation and have the potential to revolutionize the way we travel. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+They offer the potential for increased safety, efficiency, and convenience, as well as the opportunity for new business models and revenue streams. As technology continues to advance, cars will be at the forefront of this revolution and it is likely that we will see even more significant changes in the way we use and interact with vehicles.
 
-### What you'll need
+## Vulnerable Road Users
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+A vulnerable road user is a person who is at a higher risk of being involved in a traffic accident due to their mode of transportation or their physical or cognitive abilities. Examples of vulnerable road users include pedestrians, bicyclists, motorcyclists, and people with disabilities. 
 
-## Generate a new site
+Especially with the increasing modes of urban transport, the growing number of vulnerable road users and their safety becomes increasingly important yet difficult to maintain. They are incentivized to participate in the network through the reward mechanism for making their trip information available to the relevant road users that they have a high probability of interacting with and might pose risk to them.  
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
