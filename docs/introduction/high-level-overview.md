@@ -2,13 +2,20 @@
 sidebar_position: 2
 ---
 
+
+$$
+I = \int_0^{2\pi} \sin(x)\,dx
+$$
+
+
+
 # High Level Overview
 
 
 
 ### Soarchain is multi-purpose Layer 1 network that enables a token-incentivized data and connectivity infrastructure for mobility.
 
-## 
+##
 
 Get started by **creating a new site**.
 
