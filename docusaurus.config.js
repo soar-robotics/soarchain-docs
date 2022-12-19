@@ -31,6 +31,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: ({ docPath }) => `https://github.com/soar-robotics/soarchain-docs/${docPath}`,
           remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],
           routeBasePath: "/",
