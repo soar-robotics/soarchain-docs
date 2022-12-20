@@ -1,6 +1,6 @@
 {
-  "label": "FAQ",
-  "position": 11,
+  "label": "Wallet",
+  "position": 10,
   "link": {
     "type": "generated-index",
     "description": "."

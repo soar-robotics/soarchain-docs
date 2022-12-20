@@ -1,51 +1,36 @@
 ---
 
 sidebar_position: 2
-hide_table_of_contents: true
+hide_table_of_contents: false
 hidden: false
 
 ---
 
 # What is Soarchain?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<p align="center">
+A single-purpose blockchain to address the needs of mobility.
+</p>
 
-## Getting Started
+>  
+**​[Soarchain](https://www.soarchain.com/)  is a Layer 1 built on [Cosmos SDK](https://v1.cosmos.network/sdk) network that enables a token-incentivized data and connectivity infrastructure for mobility.  With its native smart contracts, Soarchain enables decentralized applications specific to mobility, creating a dAPP ecosystem on cars, leading to a revolution of more efficient, cost-effective, and eco-friendly transportation.**
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Soarchain is opening up new possibilities. 
 
-### What you'll need
+Soarchain is disrupting the transportation realm with blockchain technology, offering a fully decentralized platform of applications to revolutionize how we get around. From improving road safety and data collection to providing the convenience of device management and pay-how-you-drive insurance, Soarchain allows users to be directly in control.
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### How Soarchain is changing the way, we get around?
 
-## Generate a new site
+The MOTUS device is at the forefront of this innovation, connecting all cars to the Soarchain network with just a single plug-in unlocking access to an exciting array of applications and services. To set it up, you must plug a MOTUS device into your standard port for instantaneous access.
 
-Generate a new Docusaurus site using the **classic template**.
+### Purpose specific L1 solution
 
-The classic template will automatically be added to your project after you run the command:
+Soarchain, a sovereign app chain built on Cosmos SDK, is creating an environment where data can be securely collected, and real-time decisions can be made.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Decentralized Application Ecosystem
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Mobility Dapps
+Decentralized Application Ecosystem
+Securely storing and sharing vehicle data enables a smart contract enabled decentralized application ecosystem.

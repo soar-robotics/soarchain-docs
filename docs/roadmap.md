@@ -1,8 +1,10 @@
 ---
-sidebar_position: 1
+
+sidebar_position: 8
+hidden: false
 ---
 
-# FAQ-1
+# Roadmap
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

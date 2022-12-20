@@ -4,44 +4,18 @@ sidebar_position: 3
 
 # Device Management
 
-Let's discover **Docusaurus in less than 5 minutes**.
+As Soarchain creates a secure, decentralized, private and trustless way of connecting a vehicle to other endpoints, management of all the connected devices must be done in a secure and robust way. Soarchain can potentially become a platform to deploy decentralized and upgraded versions of today’s remote configuration, monitoring, and over-the-air (OTA) software updates solutions on the market. 
 
-## Getting Started
+### Remote Configuration
 
-Get started by **creating a new site**.
+Remote configuration can be a time consuming and error-prone process. However, with Soarchain’s vehicle-to-network technology and smart-contracts supporting blockchain, this process can be automated, secure, and reliable. By leveraging the distributed ledger, smart contracts can be used to automatically configure settings, devices, and networks. Furthermore, since each transaction is stored on the distributed ledger, it can be verified and audited to ensure that the configuration is secure and compliant with the appropriate regulations. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+### Remote Monitoring 
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Soarchain can also be used to monitor remote systems in a secure and reliable manner. By leveraging the distributed ledger and decentralized identifiers(DID), organizations can track and monitor remote systems in real-time, ensuring that all data is secure, accurate, authentic and integral. Furthermore, the distributed ledger can also be used to store data related to the systems, such as system configurations, user access, and other relevant information. 
 
-## Generate a new site
+### Secure Native OTA
 
-Generate a new Docusaurus site using the **classic template**.
+Similar to Remote Configuration, Soarchain can also enable over-the-air (OTA) software updates through its vehicle-to-network technology and smart-contracts supporting blockchain, and even facilitate vehicle-to-vehicle OTA without needing to backhaul to an internet-connected server. By leveraging the distributed ledger, organizations can ensure that all updates are cryptographically signed and verified before being deployed. Furthermore, it can also be used to store metadata related to the updates, such as version numbers, security patches, and other relevant information. 
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
