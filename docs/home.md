@@ -49,7 +49,7 @@ hide_table_of_contents: true
   </div>
 </div>
 
-## Learn Soarchain
+## Learn about Soarchain
 
 <div class="docs-card-container">
   <div class="row row-cols-1 row-cols-md-3a g-3">
@@ -72,7 +72,7 @@ hide_table_of_contents: true
         >
           <h2>Use Cases and Applications</h2>
         </a>
-        <p class="card-text">Relevant real-life use cases and applications.
+        <p class="card-text">Find out more about real-life use cases and applications.
         </p>
       </div>
     </div>

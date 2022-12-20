@@ -7,6 +7,13 @@ sidebar_position: 3
 
 ### [MOTUS](https://www.soarchain.com/motus)  are the open-source hardware units that enable the vehicles to communicate with each other, the infrastructure, people and the cloud through different communication protocols.
 
+![Motus](/img/soar9_v2.927.png)
+<p align="center">
+Motus
+</p>
+
+
+## Features
 
 - **Cellular-V2X PC5 Mode 4** protocol for disseminating signed and encrypted messages that help vehicles and other proximate nodes become aware of each other and directly exchange information.
 
@@ -28,3 +35,10 @@ sidebar_position: 3
 > There are different types of Motus devices which support different configurations and proof mechanisms. Motus is the full-fledged hardware that employs all the aforementioned features and is able to participate in all the proof mechanisms in Soarchain, as well as issue all types of challenges. 
 >
 > **[MOTUS Mini](https://www.soarchain.com/motus-mini)** is the low-end hardware which employs only a few of these features and links directly to the user’s mobile device to use it as a relay device. They can only participate in network-based proof mechanisms. Motus can be thought of as a light, messaging and computational node.
+
+
+![Motus mini](/img/mini_render_1.jpeg)
+
+<p align="center">
+Motus Mini
+</p>
