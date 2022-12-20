@@ -65,23 +65,31 @@ const config = {
         },
         items: [
           {
-            to: '/LightPaper',
+            to: '/introduction/whitepaper',
             position: 'left',
-            label: 'LightPaper',
-            activeBasePath: "/LightPaper"
+            label: 'WhitePaper',
+            activeBasePath: "/introduction/whitepaper"
           },
-          {
-            type: 'dropdown',
-            label: 'API',
-            position: 'left',
-            items: [
+          // {
+          //   // type: 'dropdown',
+          //   // label: 'API',
+          //   // position: 'left',
+          //   // items: [
 
-            ],
+          //   // ],
+          // },
+
+          {
+            href: 'https://www.soarchain.com/',
+            position: 'right',
+            className: 'header-www-link',
+            title: 'Soarchan Website',
+            'aria-label': 'Soarchain website',
           },
           {
             href: 'https://discord.gg/eKUXe2VT',
             position: 'right',
-            className: 'header-www-link',
+            className: 'header-discord-link',
             title: 'Soarchan Discord',
             'aria-label': 'Soarchain Discord',
           },
@@ -91,6 +99,14 @@ const config = {
             className: 'header-github-link',
             title: 'GitHub repository',
             'aria-label': 'GitHub repository',
+          },
+          {
+            href: 'https://twitter.com/soar_chain',
+            position: 'right',
+            className: 'header-twitter-link',
+            title: 'Soarchain Twitter',
+            'aria-label': 'Soarchain twitter',
+
           }
 
 
@@ -100,6 +116,8 @@ const config = {
         logo: {
           alt: 'Soar',
           src: 'img/favicon-96x96.png',
+          href: '/',
+          height: '60px',
         },
         style: 'dark',
         links: [
@@ -108,17 +126,21 @@ const config = {
             items: [
               {
                 label: 'Lightpaper',
-                to: '/Lightpaper'
+                href:'https://www.soarchain.com/lightpaper'
               },
               {
                 label : 'Application Ecosystem',
-                to: '/Application Ecosystem'
+                to: '/category/ecosystem'
               }
             ]
           },
           {
             title: 'Community',
             items: [
+              {
+                label: 'Soarchain Community',
+                href: 'https://www.soarchain.com/community'
+              },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/eKUXe2VT'
@@ -131,6 +153,7 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/soar-robotics'
               }
+
             ]
           },
           {

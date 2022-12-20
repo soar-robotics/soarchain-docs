@@ -32,7 +32,7 @@ Motus
 - **High-precision GNSS and Inertial Measurement Unit (IMU)** to provide data for localization, safety and autonomy applications.
 
 
-> There are different types of Motus devices which support different configurations and proof mechanisms. Motus is the full-fledged hardware that employs all the aforementioned features and is able to participate in all the proof mechanisms in Soarchain, as well as issue all types of challenges. 
+> There are different types of Motus devices which support different configurations and proof mechanisms. Motus is the full-fledged hardware that employs all the aforementioned features and is able to participate in all the proof mechanisms in Soarchain, as well as issue all types of challenges.
 >
 > **[MOTUS Mini](https://www.soarchain.com/motus-mini)** is the low-end hardware which employs only a few of these features and links directly to the user’s mobile device to use it as a relay device. They can only participate in network-based proof mechanisms. Motus can be thought of as a light, messaging and computational node.
 

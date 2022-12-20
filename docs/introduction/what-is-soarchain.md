@@ -12,11 +12,11 @@ hidden: false
 A single-purpose blockchain to address the needs of mobility.
 </p>
 
->  
+>
 **​[Soarchain](https://www.soarchain.com/)  is a Layer 1 built on [Cosmos SDK](https://v1.cosmos.network/sdk) network that enables a token-incentivized data and connectivity infrastructure for mobility.  With its native smart contracts, Soarchain enables decentralized applications specific to mobility, creating a dAPP ecosystem on cars, leading to a revolution of more efficient, cost-effective, and eco-friendly transportation.**
 
 
-### Soarchain is opening up new possibilities. 
+### Soarchain is opening up new possibilities.
 
 Soarchain is disrupting the transportation realm with blockchain technology, offering a fully decentralized platform of applications to revolutionize how we get around. From improving road safety and data collection to providing the convenience of device management and pay-how-you-drive insurance, Soarchain allows users to be directly in control.
 

@@ -1,42 +1,39 @@
-# This is a basic workflow to help you get started with Actions
-
-name: build & deploy
-
-# Controls when the workflow will run
+name: Build and Deploy
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches:
+      - dev
 
-
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build-deploy:
-    # The type of runner that the job will run on
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Soar Chain Documentation CI / CD
-        uses: appleboy/ssh-action@master
-        with: 
-          host: ${{ secrets.SSH_HOST }}
-          key: ${{ secrets.SSH_KEY }}
-          username: ${{ secrets.SSH_USERNAME }}
+      # Check out the repository
+      - uses: actions/checkout@v2
 
-          script: |
-            cd soarchain-docs
-            git pull origin main
-            npm install
-            npm run build
-            rm -rf /var/www/docs.soarchain.com/*
-            mv ./build/* /var/www/docs.soarchain.com/
-            
-            
-        
-      # Runs a single command using the runners shell
-      
-      
+      # Build the React app
+      - name: Build the app
+        run: |
+          yarn
+          yarn build
+
+      # Add the private key to the runner's environment as a secret
+      - name: Add private key as secret
+        run: |
+          echo "::set-output name=private_key::${{ secrets.PRIVATE_KEY }}"
+        id: private_key
+
+      # Add the private key to the ssh-agent's key store
+      - name: Add private key to ssh-agent
+        uses: webfactory/ssh-agent@v0.4.0
+        with:
+          ssh-private-key: ${{ steps.private_key.outputs.private_key }}
+
+      # Use the private key to connect to the droplet and copy the built files using scp
+      - name: Copy files to droplet
+        run: |
+          scp -r build/* droplet_username@droplet_ip_address:/path/to/app/on/droplet
+
+      # Restart the server on the droplet
+      - name: Restart server
+        run: ssh -i ~/.ssh/id_rsa droplet_username@droplet_ip_address 'pm2 restart app'

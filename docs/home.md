@@ -25,7 +25,7 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/category/what-is-soarchain"
+          href="/introduction/what-is-soarchain"
           class="card-title card-link stretched-link"
         >
           <h2>What is Soarchain?</h2>
@@ -37,7 +37,7 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/category/how-it-works"
+          href="/introduction/how-it-works"
           class="card-title card-link stretched-link"
         >
           <h2>How it Works?</h2>
@@ -95,7 +95,7 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/category/roadmap"
+          href="/roadmap"
           class="card-title card-link stretched-link"
         >
           <h2>Roadmap</h2>
