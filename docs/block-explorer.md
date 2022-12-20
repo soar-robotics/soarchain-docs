@@ -6,44 +6,25 @@ hidden: false
 
 # Block Explorer
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Introduction
 
-## Getting Started
+Blockchain explorers allow users to query the blockchain for data. Explorers are often compared to search engines for the blockchain. By using an explorer, users can search and track balances, transactions, contracts, and other broadcasted data to the blockchain.
 
-Get started by **creating a new site**.
+Soarchain now offers a block explorer for the **Soarchain Devnet**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+### Devnet
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+#### :point_right:  **[ Soarchain Devnet Block Explorer](http://explorer.soarchain.com/ )**
 
-## Generate a new site
+### Testnet
 
-Generate a new Docusaurus site using the **classic template**.
+> ℹ️ Comming soon.
 
-The classic template will automatically be added to your project after you run the command:
+🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Mainnet
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+> ℹ️ Comming soon.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧

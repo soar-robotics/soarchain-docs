@@ -13,36 +13,36 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/welcome"
+          href="/category/introduction"
           class="card-title card-link stretched-link"
         >
-          <h2>Welcome</h2>
+          <h2>Introduction</h2>
         </a>
-        <p class="card-text">Write card info here
+        <p class="card-text">Start from here.
         </p>
       </div>
     </div>
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/privacy"
+          href="/category/what-is-soarchain"
           class="card-title card-link stretched-link"
         >
-          <h2>Bla Bla</h2>
+          <h2>What is Soarchain?</h2>
         </a>
-        <p class="card-text">Modify me
+        <p class="card-text">Soarchain is ...
         </p>
       </div>
     </div>
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/category/faq"
+          href="/category/how-it-works"
           class="card-title card-link stretched-link"
         >
-          <h2>FAQ</h2>
+          <h2>How it Works?</h2>
         </a>
-        <p class="card-text">Get to know more about Soarchain
+        <p class="card-text">How does Soarchain function?
         </p>
       </div>
     </div>
@@ -56,23 +56,23 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/welcome"
+          href="/category/key-components"
           class="card-title card-link stretched-link"
         >
-          <h2>Learn'</h2>
+          <h2>Key Components</h2>
         </a>
-        <p class="card-text">Discover features.</p>
+        <p class="card-text">Discover the key components of the network.</p>
       </div>
     </div>
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/mounting"
+          href="/category/use-cases-and-applications"
           class="card-title card-link stretched-link"
         >
-          <h2>Blockchain will save the world</h2>
+          <h2>Use Cases and Applications</h2>
         </a>
-        <p class="card-text">Its our L1 Blockchain
+        <p class="card-text">Relevant real-life use cases and applications.
         </p>
       </div>
     </div>
@@ -84,52 +84,52 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/api"
+          href="/category/ecosystem"
           class="card-title card-link stretched-link"
         >
-          <h2>Smart </h2>
+          <h2>Ecosystem </h2>
         </a>
-        <p class="card-text">test me</p>
+        <p class="card-text">Discover the Soarchain ecosystem.</p>
       </div>
     </div>
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/releases"
+          href="/category/roadmap"
           class="card-title card-link stretched-link"
         >
-          <h2>bla bla</h2>
+          <h2>Roadmap</h2>
         </a>
-        <p class="card-text">hahah
+        <p class="card-text">Our latest Roadmap.
         </p>
       </div>
     </div>
   </div>
 </div>
 
-## Smart Contracts
+## $MOTUS
 
 <div class="docs-card-container">
   <div class="row row-cols-1 row-cols-md-3a g-3">
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/intro"
+          href="/category/motus-token"
           class="card-title card-link stretched-link"
-        ><h2>Tutorials</h2></a>
+        ><h2>$MOTUS Token</h2></a>
         <p class="card-text">
-          Smart contracts are written in cosmwasm
+          Start here for native $MOTUS token.
         </p>
       </div>
     </div>
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="https://docs.cosmwasm.com/docs/1.0/architecture/actor"
+          href="/category/wallet"
           class="card-title card-link stretched-link"
-        ><h2>Deploy a contract</h2></a>
+        ><h2>Wallet</h2></a>
         <p class="card-text">
-          Learn how to do it
+          Learn about Soarchain Wallets.
         </p>
       </div>
     </div>
@@ -145,15 +145,15 @@ hide_table_of_contents: true
         <a href="/category/faq" class="card-title card-link stretched-link">
           <h2>FAQ</h2>
         </a>
-        <p class="card-text">Get to know more about Soarchain.</p>
+        <p class="card-text">Frequently Asked Questions</p>
       </div>
     </div>
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
-        <a href="" class="card-title card-link stretched-link">
-          <h2>Social Networks</h2>
+        <a href="/category/installation-guide" class="card-title card-link stretched-link">
+          <h2>Installation Guide</h2>
         </a>
-        <p class="card-text">Follow our social networks.</p>
+        <p class="card-text">Motus instalation and onboarding information.</p>
       </div>
     </div>
     <div class="col">
@@ -161,7 +161,7 @@ hide_table_of_contents: true
         <a href="https://github.com/soar-robotics" class="card-title card-link stretched-link">
           <h2>GitHub</h2>
         </a>
-        <p class="card-text">git</p>
+        <p class="card-text">Soarhcain GitHub Repositories</p>
       </div>
     </div>
   </div>
@@ -170,10 +170,10 @@ hide_table_of_contents: true
   <div class="row row-cols-1 row-cols-md-2a g-4">
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
-        <a href="https://www.soarchain.com/" class="card-title card-link stretched-link">
-          <h2>Something</h2>
+        <a href="https://discord.gg/r43PyGyCst" class="card-title card-link stretched-link">
+          <h2>Soarchain Discord</h2>
         </a>
-        <p class="card-text">Soarchain</p>
+        <p class="card-text">Join the Official Soarchain Discord Server.</p>
       </div>
     </div>
     <div class="col">
@@ -182,15 +182,15 @@ hide_table_of_contents: true
          class="card-title card-link stretched-link">
           <h2>Website</h2>
         </a>
-        <p class="card-text">Website</p>
+        <p class="card-text">Discover more.</p>
       </div>
     </div>
      <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
-        <a href="https://www.soarchain.com/" class="card-title card-link stretched-link">
-          <h2>Something</h2>
+        <a href="https://www.twitter.com/soar_chain" class="card-title card-link stretched-link">
+          <h2>Twitter</h2>
         </a>
-        <p class="card-text">Soarchain</p>
+        <p class="card-text">Follow us on Twitter.</p>
       </div>
     </div>
   </div>
