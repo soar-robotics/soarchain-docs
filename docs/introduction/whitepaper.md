@@ -11,7 +11,7 @@ hidden: true
 
 
 ℹ️ This section is currently under work in progress.<br />
-ℹ️ Feel free to check out our Light Paper.
+ℹ️ Feel free to check out our [Light Paper](https://www.soarchain.com/lightpaper)
 
 
 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧

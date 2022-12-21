@@ -30,7 +30,6 @@ Soarchain, a sovereign app chain built on Cosmos SDK, is creating an environment
 
 ### Decentralized Application Ecosystem
 
+Securely storing and sharing vehicle data enables a smart contract enabled [decentralized application ecosystem](https://www.soarchain.com/application-ecosystem).
 
-Mobility Dapps
-Decentralized Application Ecosystem
-Securely storing and sharing vehicle data enables a smart contract enabled decentralized application ecosystem.
+![Dapps](/img/dapps.jpg)
