@@ -70,6 +70,11 @@ const config = {
             label: 'WhitePaper',
             activeBasePath: "/introduction/whitepaper"
           },
+          {
+            position: 'left',
+            label: 'Soarchain Website',
+            href:'https://www.soarchain.com'
+          },
           // {
           //   // type: 'dropdown',
           //   // label: 'API',
@@ -79,13 +84,13 @@ const config = {
           //   // ],
           // },
 
-          {
-            href: 'https://www.soarchain.com/',
-            position: 'right',
-            className: 'header-www-link',
-            title: 'Soarchan Website',
-            'aria-label': 'Soarchain website',
-          },
+          // {
+          //   href: 'https://www.soarchain.com/',
+          //   position: 'right',
+          //   className: 'header-www-link',
+          //   title: 'Soarchan Website',
+          //   'aria-label': 'Soarchain website',
+          // },
           {
             href: 'https://discord.gg/eKUXe2VT',
             position: 'right',

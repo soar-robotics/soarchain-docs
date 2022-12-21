@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Nodes
-
+>
 ### Soarchain Mobility Network comprises different types of nodes, either categorized according to the degree that they store blockchain data and allow access to the data or according to their duty and expected collaboration within the network.
 
 ### Full Nodes
