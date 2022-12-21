@@ -31,14 +31,19 @@ In that case, we check if the current score (**$$S$$**) is already close to the 
 
 If **$$C$$** is false, it means that the challenge was unsuccessful and the score should be decreased. In that case, we check if the current score is already close to the minimum score (0). If it is, the score is decreased by a small amount. If the current score is not close to the minimum, the score is decreased by a larger decrease factor that was calculated earlier.
 
-
-
-
-🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧
-
 ### Scoring Formula
 
-ℹ️ This section is currently under work in progress.
+![decrease](/img/decrease_factor.png)
 
+![increase](/img/increase_factor.png)
 
-🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧
+Vehicles don’t get any rewards if their score drops below 50. The relationship between the Reward Multiplier and Score is given as following:
+
+$rewardMultiplier = (Sω) * (1 - (τ*ψ))$ where  ω, τ and ψ are network parameters. τ is calculated based on the timestamp of the last completed challenge and starts increasing after a threshold is passed, penalizing non-contributing behavior. ψ on the other hand, tracks the regularity of a vehicle’s contributions and becomes infinitesimally small if a vehicle’s contributions are more uniformly distributed. Currently τ and ψ are chosen to be 0 and ω = 2
+
+![reward vs score](/img/reward_score.png)
+
+At each score epoch, the scores of the nodes are updated. At each reward epoch, the rewards are distributed according to a calculation which takes rewardMultiplier into account alongside some variables that depend on all the vehicles in the network. At any given reward epoch, the nominal reward that a vehicle will get is calculated according to the following formula:
+
+>$(rewardMultiplier / Σall) * (epochRewards)$ where $Σall$ is the sum of each vehicle’s rewardMultiplier within the network and epochRewards is the number of tokens that will be
+> emitted as rewards (initially configured as a network parameter).
