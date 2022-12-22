@@ -14,6 +14,3 @@ sidebar_position: 3
 
 
 ![Data Flow](/img/data_flow.gif)
-
-
-
