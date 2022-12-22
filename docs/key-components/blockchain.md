@@ -5,8 +5,8 @@ hide_table_of_contents: true
 
 # Blockchain
 
-
-### Soarchain is a distributed ledger which is a decentralized, immutable and append-only database that keeps track of the account balances, unique node addresses and various scores of the network participants.
+>
+## Soarchain is a distributed ledger which is a decentralized, immutable and append-only database that keeps track of the account balances, unique node addresses and various scores of the network participants.
 
  It is composed of blocks that each contain a header and a Merkle tree that comprises a list of hashes that are generated from the transactions in that block.
 
