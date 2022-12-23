@@ -8,4 +8,4 @@ hidden: false
 
 ![Roadmap](/img/roadmap.jpg)
 
-> #### :point_right:  ** - Discover our [Roadmap](http://explorer.soarchain.com/ ) from Soarhcain Website.**
+> #### :point_right:  ** - Discover the [Roadmap](http://explorer.soarchain.com/ ) from Soarhcain Website.**
