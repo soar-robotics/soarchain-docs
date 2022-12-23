@@ -13,7 +13,4 @@ sidebar_position: 3
 - ​[Decentralized Applications](https://www.soarchain.com/application-ecosystem) are enabled through Soarchain’s native smart contracts and this creates a decentralized data ecosystem for mobility. 
 
 
-![Data Flow](/img/data_flow.png)
-
-
-
+![Data Flow](/img/data_flow.gif)

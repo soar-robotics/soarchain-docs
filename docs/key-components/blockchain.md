@@ -23,4 +23,4 @@ At a given epoch, a block consists of the following main fields:
 - Evidence
 - Last Commit
 
-![PoAv](/img/poav.jpg)
+![PoAv](/img/poa.gif)
