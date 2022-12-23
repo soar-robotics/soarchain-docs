@@ -1,1 +1,40 @@
-#coming soon
+
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the repository
+      - uses: actions/checkout@v2
+
+      # Build the React app
+      - name: Build the app
+        run: |
+          yarn install
+          yarn build
+
+      # Add the private key to the runner's environment as a secret
+      - name: Add private key as secret
+        run: |
+          echo "::set-output name=private_key::${{ secrets.PRIVATE_KEY }}"
+        id: private_key
+
+      # Add the private key to the ssh-agent's key store
+      - name: Add private key to ssh-agent
+        uses: webfactory/ssh-agent@v0.4.0
+        with:
+          ssh-private-key: ${{ steps.private_key.outputs.private_key }}
+
+      # Use the private key to connect to the droplet and copy the built files using scp
+      - name: Copy files to droplet
+        run: |
+          scp -r build/* root@167.99.137.81:/var/www/docs.soarchain.com/
+
+      # Restart the server on the droplet
+      - name: Restart server
+        run: ssh -i ~/.ssh/root@167.99.137.81 'pm2 restart app'
