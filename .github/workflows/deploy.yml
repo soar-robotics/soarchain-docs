@@ -1,41 +1,37 @@
-name: Build and Deploy
+
+# This is a basic workflow to help you get started with Actions
+
+name: build & deploy
+
+# Controls when the workflow will run
 on:
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches:
-      - dev
+    branches: [ dev ]
 
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  build-and-deploy:
+  # This workflow contains a single job called "build"
+  build-deploy:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Check out the repository
-      - uses: actions/checkout@v2
-
-      # Build the React app
-      - name: Build the app
-        run: |
-          yarn install
-          yarn build
-
-      # Add the private key to the runner's environment as a secret
-      - name: Add private key as secret
-        id: private_key
-        run: |
-          echo "${{ secrets.PRIVATE_KEY }}"
-        env:
-          PRIVATE_KEY: ${{ steps.private_key.outputs.private_key }}
-
-      # Add the private key to the ssh-agent's key store
-      - name: Add private key to ssh-agent
-        uses: webfactory/ssh-agent@v0.4.0
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Soar Chain Documentation CI / CD
+        uses: appleboy/ssh-action@master
         with:
-          ssh-private-key: ${{ env.PRIVATE_KEY }}
+          host: ${{ secrets.SSH_HOST }}
+          key: ${{ secrets.SSH_KEY }}
+          username: ${{ secrets.SSH_USERNAME }}
 
-      # Use the private key to connect to the droplet and copy the built files using scp
-      - name: Copy files to droplet
-        run: |
-          scp -r build/* root@167.99.137.81:/var/www/docs.soarchain.com/
-
-      # Restart the server on the droplet
-      - name: Restart server
-        run: ssh -i ~/.ssh/root@167.99.137.81 'pm2 restart app'
+          script: |
+            cd soarchain-docs
+            git pull origin main
+            npm install
+            npm run build
+            rm -rf /var/www/docs.soarchain.com/*
+            mv ./build/* /var/www/docs.soarchain.com/
