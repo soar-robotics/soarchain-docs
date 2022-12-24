@@ -1,4 +1,3 @@
-
 name: Build and Deploy
 on:
   push:
@@ -11,8 +10,6 @@ jobs:
     steps:
       # Check out the repository
       - uses: actions/checkout@v2
-      env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
       # Build the React app
       - name: Build the app
@@ -22,15 +19,17 @@ jobs:
 
       # Add the private key to the runner's environment as a secret
       - name: Add private key as secret
-        run: |
-          echo "::set-output name=private_key::${{ secrets.PRIVATE_KEY }}"
         id: private_key
+        run: |
+          echo "${{ secrets.PRIVATE_KEY }}"
+        env:
+          PRIVATE_KEY: ${{ steps.private_key.outputs.private_key }}
 
       # Add the private key to the ssh-agent's key store
       - name: Add private key to ssh-agent
         uses: webfactory/ssh-agent@v0.4.0
         with:
-          ssh-private-key: ${{ steps.private_key.outputs.private_key }}
+          ssh-private-key: ${{ env.PRIVATE_KEY }}
 
       # Use the private key to connect to the droplet and copy the built files using scp
       - name: Copy files to droplet
