@@ -20,16 +20,16 @@ A single-purpose blockchain to address the needs of mobility.
 
 Soarchain is disrupting the transportation realm with blockchain technology, offering a fully decentralized platform of applications to revolutionize how we get around. From improving road safety and data collection to providing the convenience of device management and pay-how-you-drive insurance, Soarchain allows users to be directly in control.
 
-### How Soarchain is changing the way, we get around?
+### How Soarchain is changing the way, we get around
 
-The MOTUS device is at the forefront of this innovation, connecting all cars to the Soarchain network with just a single plug-in unlocking access to an exciting array of applications and services. To set it up, you must plug a MOTUS device into your standard port for instantaneous access.
+The Motus device is at the forefront of this innovation, connecting all cars to the Soarchain network with just a single plug-in unlocking access to an exciting array of applications and services. To set it up, you must plug a Motus device into your standard port for instantaneous access.
 
 ### Purpose specific L1 solution
 
-Soarchain, a sovereign app chain built on Cosmos SDK, is creating an environment where data can be securely collected, and real-time decisions can be made.
+Soarchain, a sovereign appchain built on Cosmos SDK, is creating an environment where data can be securely collected, and real-time decisions can be made.
 
 ### Decentralized Application Ecosystem
 
-Securely storing and sharing vehicle data enables a smart contract enabled [decentralized application ecosystem](https://www.soarchain.com/application-ecosystem).
+Securely storing and sharing vehicle data enables a [decentralized application ecosystem](https://www.soarchain.com/application-ecosystem) through native smart contracts.
 
 ![Dapps](/img/dapps.jpg)
