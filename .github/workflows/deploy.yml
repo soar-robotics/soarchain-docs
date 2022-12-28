@@ -34,8 +34,8 @@ jobs:
       # Use the private key to connect to the droplet and copy the built files using scp
       - name: Copy files to droplet
         run: |
-          scp -r build/* root@167.99.137.81:/var/www/docs.soarchain.com/
+          scp -oStrictHostKeyChecking=no -r build/* root@167.99.137.81:/var/www/docs.soarchain.com/
 
       # Restart the server on the droplet
       - name: Restart server
-        run: ssh -i ~/.ssh/root@167.99.137.81 'service nginx restart'
+        run: ssh root@167.99.137.81 'service nginx restart'
