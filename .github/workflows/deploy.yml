@@ -27,7 +27,7 @@ jobs:
 
       # Add the private key to the ssh-agent's key store
       - name: Add private key to ssh-agent
-        uses: webfactory/ssh-agent@v0.4.0
+        uses: webfactory/ssh-agent@v0.4.1
         with:
           ssh-private-key: ${{ secrets.PRIVATE_KEY }}
 
@@ -38,4 +38,4 @@ jobs:
 
       # Restart the server on the droplet
       - name: Restart server
-        run: ssh -i ~/.ssh/root@167.99.137.81 'pm2 restart app'
+        run: ssh -i ~/.ssh/root@167.99.137.81 'service nginx restart'
