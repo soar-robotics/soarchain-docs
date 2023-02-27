@@ -5,13 +5,13 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Installation
 
 ```
-$ yarn || npm install
+$ yarn install
 ```
  
 ### Local Development
 
 ```
-$ yarn start || npm start
+$ yarn start 
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -19,7 +19,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ yarn build || npm run build
+$ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
@@ -40,19 +40,9 @@ title: Hello
 ---
 ```
 More information can be found on [Docusaurus Documentation](https://docusaurus.io/docs).
-### Deployment
 
-Using SSH:
 
-```
-$ USE_SSH=true yarn deploy
-```
+### Important
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
+Important: Search only works for the statically built documentation (i.e., after you ran yarn start in your documentation folder).<br/>
+Search does not work in development (i.e., when running yarn start). If you want to test search locally, first build the documentation with yarn build, and then serve it via yarn serve.
