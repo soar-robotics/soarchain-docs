@@ -1,6 +1,6 @@
 {
-    "label": "Validate",
-    "position": 14,
+    "label": "Validator",
+    "position": 13,
     "link": {
       "type": "generated-index",
       "description": "Thank you for visiting the Soarchain validator documentation. Validators are essential nodes that ensure the network's security by validating and adding new blocks to the blockchain."

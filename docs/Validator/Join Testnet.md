@@ -4,11 +4,17 @@ sidebar_position: 3
 
 # Initialize Soarchain Node
 
-First, we need to download the correct genesis file and sync our node with the soarchain testnet.
+First, we need to download the correct genesis file and sync our node with the soarchain testnet. 
+
 ```sh
 coming soon
 ```
+Copy genesis file into .soarchain/config directory
 
+```sh
+cp genesis.json .soarchain/config
+
+```
 
 Open the config.toml to edit the node-name and seeds, persistent_peers:
 
@@ -53,7 +59,7 @@ minimum-gas-prices = "0.001motus"
 To start syncing:
 
 ```sh
-soarchaind start
+soarchaind start --log_level info --minimum-gas-prices=0.0001umotus
 ```
 
 To check on the status of syning:
