@@ -7,10 +7,6 @@ sidebar_position: 1
 ## Before Starting
 Before starting with your Motus mini, it is recommended that you review the entire setup steps first and then commence with your device.
 
-#### Disclaimer 
-
-This MOTUS Mini device is a prototype and has not yet received official CE (Conformité Européenne) or FCC (Federal Communications Commission) certifications. By using this device, you acknowledge and agree to the following terms and conditions in ​[Motus mini Disclaimer](https://docs.soarchain.com/category/installation-guide/motus-mini-disclaimer)
-
 ## Ticketing and Customer Support
 
 ## Provisioning Motus mini
