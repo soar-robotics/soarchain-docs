@@ -9,9 +9,14 @@ Before starting with your Motus mini, it is recommended that you review the enti
 
 #### Disclaimer 
 
-This MOTUS Mini device is a prototype and has not yet received official CE (Conformité Européenne) or FCC (Federal Communications Commission) certifications. By using this device, you acknowledge and agree to the following terms and conditions in ​[Motus mini Disclaimer](https://docs.soarchain.com/category/installation-guide/motus-mini-disclaimer)
+This MOTUS Mini device is a prototype and has not yet received official CE (Conformité Européenne) or FCC (Federal Communications Commission) certifications. By using this device, you acknowledge and agree to the following terms and conditions in ​[Motus mini Disclaimer](https://www.soarchain.com/motus-mini-disclaimer).
 
 ## Ticketing and Customer Support
+
+#### Discord
+
+Should you encounter any issues during the setup process or while using the device, please submit a support ticket through ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) (**[Soarchain Discord](https://discord.gg/r43PyGyCst) > #📩-support-ticket** channel ). The Soarchain team will provide assistance to help resolve any problems that may arise.
+
 
 ## Provisioning Motus mini
 
@@ -39,7 +44,7 @@ Before starting with the provisioning please make sure your mobile phone is conn
 
 Plug your Motus mini to your vehicle’s generic OBD2 port. The OBD2 port is generally found under the steering wheel on the left side of the driver seat. 
 
-After plugging the Motus mini to the vehicle's OBD2 port, the Motus mini will flash a red light meaning it is connected correctly and ready for the setup. 
+After plugging the Motus mini to the vehicle's OBD2 port, the Motus mini will flash a LED light meaning it is connected correctly and ready for the setup. 
 
 ### Pairing Motus mini with your mobile phone
 
@@ -72,7 +77,6 @@ If you don’t see your phone’s name on the screen, toggle back to the ```Sett
 ![decrease](/img/hotspot1.png)
 </p>
 
-Still don’t see your phone’s name on the app then please refer to this: www.sss.ss
 
 ### Entering the hotspot password
 
@@ -80,13 +84,14 @@ Still don’t see your phone’s name on the app then please refer to this: www.
 ----- ❗❗❗ ATTENTION ❗❗❗ -----
 </p>
 
-Before entering your **phone’s hotspot password** please double check your password. You must enter your hotspot correctly on the first try. **If entered wrongly, the Motus mini has be reseted using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
+Before entering your **phone’s hotspot password** please double check your password. You must enter your hotspot correctly on the first try. **If entered incorrectly, the Motus mini needs to be reset using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
 
-
+You can reset the provisioning by clicking [reset-provisioning](http://reset.soarchain.com/) but please first open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
 
 <p align="center">
 
 ![decrease](/img/IMG_0292b.png)
+
 
 ----- ❗❗❗ ATTENTION ❗❗❗ -----
 </p>
@@ -107,6 +112,20 @@ After entering the password correctly, the provisioning will be completed.
  If you see a message saying ```Provisioning Failed``` or Red ```X``` sign, please check if there is a device connected to your phone’s hotspot. If yes, then the provisioning is completed successfully. Sometimes when an auto-update is downloading ***Motus Secure Provisioning*** prompts a failure message even though the provisioning is successfully done.  
 
 
+## Important Notes
+
+### Changing your hotspot settings
+
+After the setup process for the Motus mini is finished, it will maintain its connection to your mobile phone using the credentials you provided. However, **if you modify the name or password of your phone's hotspot credentials, the Motus mini will no longer be able to connect to your phone**. Therefore, you should avoid changing your hotspot name or password, or alternatively, perform a device reset and repeat the provisioning process from start. 
+
+You can reset the provisioning by clicking [reset-provisioning](http://reset.soarchain.com/) but please first open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team.   
+
+### Extra Android settings
+
+To improve your experience, you may want to consider following these steps to ensure that your mobile hotspot remains open at all times, thereby eliminating the need to enable it each time you use your car.  
+
+- Go to ```Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot > Configure > Advanced ``` 
+Click the ```Turn off when no device connected for``` and make it ```Never Timeout```. Also disable the settings below.
 
 
 ### Find out More
