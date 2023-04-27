@@ -86,12 +86,11 @@ If you don’t see your phone’s name on the screen, toggle back to the ```Sett
 
 Before entering your **phone’s hotspot password** please double check your password. You must enter your hotspot correctly on the first try. **If entered incorrectly, the Motus mini needs to be reset using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
 
-You can reset the provisioning by clicking [reset-provisioning](http://reset.soarchain.com/) but please first open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
+You can reset the provisioning by clicking [reset-provisioning](https://reset.soarchain.com/) but please first open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
 
 <p align="center">
 
 ![decrease](/img/IMG_0292b.png)
-
 
 ----- ❗❗❗ ATTENTION ❗❗❗ -----
 </p>
@@ -118,14 +117,14 @@ After entering the password correctly, the provisioning will be completed.
 
 After the setup process for the Motus mini is finished, it will maintain its connection to your mobile phone using the credentials you provided. However, **if you modify the name or password of your phone's hotspot credentials, the Motus mini will no longer be able to connect to your phone**. Therefore, you should avoid changing your hotspot name or password, or alternatively, perform a device reset and repeat the provisioning process from start. 
 
-You can reset the provisioning by clicking [reset-provisioning](http://reset.soarchain.com/) but please first open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team.   
+You can reset the provisioning by clicking [reset-provisioning](https://reset.soarchain.com/) but please first open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team.   
 
 ### Extra Android settings
 
 To improve your experience, you may want to consider following these steps to ensure that your mobile hotspot remains open at all times, thereby eliminating the need to enable it each time you use your car.  
 
 - Go to ```Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot > Configure > Advanced ``` 
-Click the ```Turn off when no device connected for``` and make it ```Never Timeout```. Also disable the settings below.
+Click the ```Turn off when no device connected for``` and make it ```Never Timeout```. Also disable the settings below. (The location of this setting can differ between devices.)
 
 
 ### Find out More
