@@ -118,7 +118,7 @@ To start with your Motus mini, the first step is to provision the Motus mini wit
 
 - ​[Apple App Store Link](https://apps.apple.com/tr/app/motus-secure-provisioning/id6446476168)
 
-Before starting with the provisioning please make sure your mobile phone is connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth**, **Personal Hotspot** settings on your phone as seen in the images below.
+Before starting with the provisioning please make sure your mobile phone is connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth**, **Personal Hotspot** ( *Allow Others to Join* and *Maximize Compatibility* ) settings on your phone as seen in the images below.
 
 
 | Cellular | Hotspot | Bluetooth |
