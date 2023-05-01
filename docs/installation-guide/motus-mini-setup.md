@@ -20,7 +20,7 @@ Should you encounter any issues during the setup process or while using the devi
 
 ## Provisioning Motus mini
 
-Please click the link based on ypur pone type. 
+Please click the link based on your phone type. 
 
 [Android Based Devices](#android-based-devices) 
 
@@ -35,7 +35,7 @@ To start with your Motus mini, the first step is to provision the Motus mini wit
 - [Google Play Store Link](https://play.google.com/store/apps/details?id=com.sr.esp)
 ​ 
 
-Before starting with the provisioning please make sure your mobile phone is not connected to any  **Wi-Fi network** and connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth** and **Personal Hotspot** settings on your phone as seen in the images below.
+Before starting with the provisioning please make sure your mobile phone is connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth** and **Personal Hotspot** settings on your phone as seen in the images below.
 
 | Cellular | Hotspot | Bluetooth |
 |------|-----|-------|
@@ -50,7 +50,7 @@ After plugging the Motus mini to the vehicle's OBD2 port, the Motus mini will fl
 
 ### Pairing Motus mini with your mobile phone
 
-Once you complete the steps above, please open your ***Motus Secure Provisioning***. If prompted, allow your phone’s camera to be used by the app.
+Once you complete the steps above, please open your ***Motus Secure Provisioning***. If prompted, allow your phone’s camera and bluetooth to be used by the app.
 
 Here is the walkthtough video of the provisioning steps.
 
@@ -68,7 +68,9 @@ From the ***Motus Secure Provisioning*** app, press  **```Provision Device```** 
 **!! Attention !! --** 
 Before continuing with the next step, please make sure that your **Cellular Data** and **Personal Hotspot** settings are on. 
 
-After scanning the QR code you will be prompted to a ```Select Wi-Fi Network``` screen where available Wi-Fi networks near you are listed. To continue seting up your Motus mini, please select your phone’s personal hotspot name from the available network names listed on the app. If you don’t see your phone’s name on the screen, please press refresh icon on the top right.
+After scanning the QR code you will be prompted to a ```Select Wi-Fi Network``` screen where available Wi-Fi networks near you are listed. 
+
+To continue seting up your Motus mini, please select your phone’s personal hotspot name from the available network names listed on the app. If you don’t see your phone’s name on the screen, please press refresh icon on the top right.
 
 The phone’s hotspot name is written at ```Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot```
 
@@ -78,7 +80,7 @@ The phone’s hotspot name is written at ```Settings > Connections > Mobile Hots
 ----- ❗❗❗ ATTENTION ❗❗❗ -----
 </p>
 
-Before entering your **phone’s hotspot password** please double check your password. You must enter your hotspot correctly on the first try. **If entered incorrectly, the Motus mini needs to be reset using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
+Before entering your **phone’s hotspot password** please **double check your password**. You must enter your hotspot correctly on the first try. **If entered incorrectly, the Motus mini needs to be reset using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
 
 If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
 
@@ -97,7 +99,6 @@ Your phone’s hotspot password is located at:
 
 ![decrease](/img/Screenshot_20230424_132255.png)
 
------ ❗❗❗ ATTENTION ❗❗❗ -----
 </p>
 
 
@@ -126,7 +127,6 @@ Before starting with the provisioning please make sure your mobile phone is conn
 
 
 
-
 ### Plug your Motus mini to your car 
 
 Plug your Motus mini to your vehicle’s generic OBD2 port. The OBD2 port is generally found under the steering wheel on the left side of the driver seat. 
@@ -135,8 +135,7 @@ After plugging the Motus mini to the vehicle's OBD2 port, the Motus mini will fl
 
 ### Pairing Motus mini with your mobile phone
 
-Once you complete the steps above, please open your ***Motus Secure Provisioning***. If prompted, allow your phone’s camera to be used by the app.
-
+Once you complete the steps above, please open your ***Motus Secure Provisioning***. If prompted, allow your phone’s camera and bluetooth to be used by the app.
 
 From the ***Motus Secure Provisioning*** app, press  **```Provision Device```**  to start the provisioning and then scan the QR code which can be found inside the Motus mini box. 
 
@@ -156,11 +155,16 @@ The phone’s hotspot name is the same as the iPhone’s name. You can check you
 
 ### If you don't see your phone's name on the available Wi-Fi networks list
 
+Please refer to this video if you don't see your phone's name on the available Wi-Fi networks list:
+
+[Walkthrough video for IOS phones](https://drive.google.com/file/d/1rjou9D7L_t1wtvcmpLpCH5jIrkSxy-bf/view?usp=share_link)
+
 If you don’t see your iPhone’s name on the list please toggle back to the ```Settings > Personal Hotspot``` screen, then disable and enable the hotspot and quickly come back to the  “Motus Secure Provisioning”  app again. 
 
 <p align="center">
 
 ![decrease](/img/hotspot1.png)
+
 </p>
 
 Refresh the screen from the icon on the top right corner. Now you will be able to see your iPhone on the list. This is a common issue observed while using the iPhone's hotspot feature and related to Apple.
@@ -174,7 +178,9 @@ Sometimes ***Motus Secure Provisioning*** App prompts a failure message saying `
 ### Entering the hotspot password
 
 <p align="center">
+
 ----- ❗❗❗ ATTENTION ❗❗❗ -----
+
 </p>
 
 Before entering your **phone’s hotspot password** please double check your password. You must enter your hotspot correctly on the first try. **If entered incorrectly, the Motus mini needs to be reset using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
@@ -204,16 +210,6 @@ After entering the password correctly, the provisioning will be completed.
 > When an auto-update is being downloaded to the Motus mini, ***Motus Secure Provisioning*** App prompts a failure message even though the provisioning is successfully done. You would know if the connection is completed successfully by checking the green part on your iPhone as the image below. The green light on your time display indicates that the Motus mini is connected to your iPhone's hotspot.
 >
 >![ios_connection](/img/green_connection.png) 
-
-
-
-
-
-
-
-
-
-
 
 
 
