@@ -110,6 +110,11 @@ After entering the password correctly, the provisioning will be completed.
 >
 > **Settings** > **Connections** > **Mobile Hotspot & Tethering** > **Mobile Hotspot** .
 
+<p align="center">
+
+ ![android_connected](/img/android_connected_mini.jpg)
+
+</p>
 
 
 ## IOS Apple
