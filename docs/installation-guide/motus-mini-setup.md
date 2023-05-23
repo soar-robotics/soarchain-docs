@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Motus mini Setup
+# Motus mini Setup 
 
 ## Before Starting
 Before starting with your Motus mini, it is recommended that you review the entire setup steps first and then commence with your device. To complete the setup process, you must have the Motus mini and its box with you while inside your car.
@@ -18,7 +18,7 @@ This MOTUS Mini device is a prototype and has not yet received official CE (Conf
 Should you encounter any issues during the setup process or while using the device, please submit a support ticket through ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) (**[Soarchain Discord](https://discord.gg/r43PyGyCst) > #📩-support-ticket** channel ). The Soarchain team will provide assistance to help resolve any problems that may arise.
 
 
-## Provisioning Motus mini
+## Start with Motus mini
 
 Please click the link based on your phone type. 
 
@@ -26,16 +26,11 @@ Please click the link based on your phone type.
 
 [IOS Apple](#ios-apple)
 
-## Android Based Devices
+## Android Based Devices​ 
 
+### Configuration before starting
 
-
-To start with your Motus mini, the first step is to provision the Motus mini with your mobile phone. Please download the ***Motus Secure Provisioning*** mobile app from the link below.
-
-- [Google Play Store Link](https://play.google.com/store/apps/details?id=com.sr.esp)
-​ 
-
-Before starting with the provisioning please make sure your mobile phone is connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth** and **Personal Hotspot** settings on your phone as seen in the images below.
+Before starting with the provisioning please make sure your mobile phone is connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth** and **Personal Hotspot** settings on your phone as seen in the images below. Also make sure that your mobile phone is not connected to any other device.
 
 | Cellular | Hotspot | Bluetooth |
 |------|-----|-------|
@@ -48,13 +43,52 @@ Plug your Motus mini to your vehicle’s generic OBD2 port. The OBD2 port is gen
 
 After plugging the Motus mini to the vehicle's OBD2 port, the Motus mini will flash a LED light meaning it is connected correctly and ready for the setup. 
 
-### Pairing Motus mini with your mobile phone
+### Create your account from the Motus Connect & Drive app
 
-Once you complete the steps above, please open your ***Motus Secure Provisioning***. If prompted, allow your phone’s camera and bluetooth to be used by the app.
+To start, the first step is to create your wallet account and provision your Motus mini with your mobile phone. Please download the ***Motus Connect & Drive*** mobile app from the link below.
 
-Here is the walkthtough video of the provisioning steps.
+- [Google Play Store Link](https://play.google.com/store/apps/details?id=com.sr.soarchain)
 
-[Video walkthrough for Android phones](https://drive.google.com/file/d/1WJbXQpZIvQOHGQkPMmKx-qYpdQgfVOWX/view?usp=share_link)
+Open your ***Motus Connect & Drive*** app and create your wallet from **```Create an Account```** button. 
+
+<p align="center">
+----- ❗❗❗ ATTENTION ❗❗❗ -----
+</p>
+
+- You will be provided with **24 seed words** which will serve as your **wallet password key**. It is very crucial that you **correctly and securely write down these 24 words**. 
+
+- It is essential that you **record these 24 seed words in a secure location** and ensure they are not lost. **Under no circumstances should you share these 24 seed words with anyone, including the Soarhcain team.**
+
+- If you **lose these 24 words**, you will be **unable to access your account or your Motus Mini forever.**
+
+- **Soarchain team has no access to your wallet and will not recover these words!**
+
+
+>The Motus Connect & Drive app is currently in its beta phase, with security audits still underway.
+
+>The wallet you create from the Motus Connect & Drive app is your unique Soarchain wallet.
+>Please do not import any other crypto wallet you have to the app. 
+>Do not import any other Cosmos wallet on the Motus Connect & Drive app.
+
+
+<p align="center">
+----- ❗❗❗ ATTENTION ❗❗❗ -----
+</p>
+
+|  |  |  |
+|------|-----| ----- |
+|![decrease](/img/create_acc.png) | ![decrease](/img/24-1.png) | ![decrease](/img/24-2.png) |
+
+> After writing down the 24 seed words, you will reenter them on the app inorder to access to your account. 
+
+### Provision Motus mini with your mobile phone
+
+Once you are done creating your account, please select **```Download Provisioning App```** and download the ***Motus Secure Provisioning*** app from the app store. Then open the ***Motus Secure Provisioning*** app to pair your Motus mini with your mobile phone.
+
+If prompted, allow your phone’s camera and bluetooth to be used by the app.
+
+
+[Video walkthrough of provisioning for Android phones](https://drive.google.com/file/d/1WJbXQpZIvQOHGQkPMmKx-qYpdQgfVOWX/view?usp=share_link)
 
 From the ***Motus Secure Provisioning*** app, press  **```Provision Device```**  to start the provisioning and then scan the QR code which can be found inside the Motus mini box. 
 
@@ -84,16 +118,17 @@ Before entering your **phone’s hotspot password** please **double check your p
 
 If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
 
+1. **Select your phone's name**
+
 <p align="center">
 
 ![decrease](/img/IMG_0292b.png)
 
------ ❗❗❗ ATTENTION ❗❗❗ -----
 </p>
 
-Your phone’s hotspot password is located at:
+Your phone’s hotspot password is located at: **Settings** > **Connections** > **Mobile Hotspot & Tethering** > **Mobile Hotspot** 
 
-- **Settings** > **Connections** > **Mobile Hotspot & Tethering** > **Mobile Hotspot** 
+2. **Enter your phone's hotspot password**
 
 <p align="center">
 
@@ -103,6 +138,11 @@ Your phone’s hotspot password is located at:
 
 
 After entering the password correctly, the provisioning will be completed. 
+
+<p align="center">
+
+----- ❗❗❗ ATTENTION ❗❗❗ -----
+</p>
 
 > If you see a message saying ```Provisioning Failed```, ```Device Disconnected``` or ```You need to reset the device``` , please check if there is a device connected to your phone’s hotspot. If yes, then the provisioning is completed successfully. 
 >
@@ -117,13 +157,40 @@ After entering the password correctly, the provisioning will be completed.
 </p>
 
 
+### Come back to the Motus Connect & Drive App
+
+After successfully completing the provisioning process close the ***Motus Secure Provisioning*** app and open the ***Motus Connect & Drive*** app, press the ```Already Provisioned``` button. Under the ***Wallet*** section, you will see some amount of ```$tMotus``` added to your wallet balance to complete the Motus mini registration transaction on the Soarchain network.  Then, wait for the ```Register Device``` button to turn blue and then press it to complete the registration.
+
+<p align="center">
+
+![register_device](/img/register_device.png)
+
+</p>
+
+> ❗ If the  ```Register Device``` button does not turn blue please fully close the app and reopen it and try to push it again.   
+
+### Earning Rewards
+
+Upon successful registration of your device, you will unlock the complete set of features offered by the Motus Connect & Drive app, and you'll begin to accumulate tMotus tokens. It's crucial to note the following:
+
+To earn rewards, you must:
+
+- Always keep your Motus mini plugged in to your vehicle.
+- Make sure the your phone's personal hotspot is enabled and the connection between Motus mini and your phone is linked while using the app.
+- For Android devices, ensure the **Motus Connect & Drive** app is always running in the foreground.
+
+
+
+
+
+
+
+
 ## IOS Apple
 
-To start with your Motus mini, the first step is to provision the Motus mini with your mobile phone. Please download the ***Motus Secure Provisioning*** mobile app from the link below.
+### Configuration before starting
 
-- ​[Apple App Store Link](https://apps.apple.com/tr/app/motus-secure-provisioning/id6446476168)
-
-Before starting with the provisioning please make sure your mobile phone is connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth**, **Personal Hotspot** ( *Allow Others to Join* and *Maximize Compatibility* ) settings on your phone as seen in the images below.
+Before starting with the provisioning please make sure your mobile phone is connected to your **SIM card’s cellular network**. Then enable the **Cellular Data** , **Bluetooth** and **Personal Hotspot** settings on your phone as seen in the images below. Also make sure that your mobile phone is not connected to any other device.
 
 
 | Cellular | Hotspot | Bluetooth |
@@ -138,11 +205,49 @@ Plug your Motus mini to your vehicle’s generic OBD2 port. The OBD2 port is gen
 
 After plugging the Motus mini to the vehicle's OBD2 port, the Motus mini will flash a LED light meaning it is connected correctly and ready for the setup. 
 
-### Pairing Motus mini with your mobile phone
+### Create your account from the Motus Connect & Drive app
 
-Once you complete the steps above, please open your ***Motus Secure Provisioning***. If prompted, allow your phone’s camera and bluetooth to be used by the app.
+To start with your Motus mini, the first step is to provision the Motus mini with your mobile phone. Please download the ***Motus Connect & Drive*** mobile app from the link below.
 
-From the ***Motus Secure Provisioning*** app, press  **```Provision Device```**  to start the provisioning and then scan the QR code which can be found inside the Motus mini box. 
+- [Apple App Store Link](https://play.go)
+
+Open your ***Motus Connect & Drive*** app and create your wallet from **```Create an Account```** button. 
+
+<p align="center">
+----- ❗❗❗ ATTENTION ❗❗❗ -----
+</p>
+
+- You will be provided with **24 seed words** which will serve as your **wallet password key**. It is very crucial that you **correctly and securely write down these 24 words**. 
+
+- It is essential that you **record these 24 seed words in a secure location** and ensure they are not lost. **Under no circumstances should you share these 24 seed words with anyone, including the Soarhcain team.**
+
+- If you **lose these 24 words**, you will be **unable to access your account or your Motus Mini forever.**
+
+- **Soarchain team has no access to your wallet and will not recover these words!**
+
+
+>The Motus Connect & Drive app is currently in its beta phase, with security audits still underway.
+
+>The wallet you create from the Motus Connect & Drive app is your unique Soarchain wallet.
+>Please do not import any other crypto wallet you have to the app. 
+>Do not import any other Cosmos wallet on the Motus Connect & Drive app.
+
+
+<p align="center">
+----- ❗❗❗ ATTENTION ❗❗❗ -----
+</p>
+
+|  |  |  |
+|------|-----| ----- |
+|![decrease](/img/create_acc.png) | ![decrease](/img/24-1.png) | ![decrease](/img/24-2.png) |
+
+> After writing down the 24 seed words, you will reenter them on the app inorder to access to your account. 
+
+### Provision Motus mini with your mobile phone
+
+Once you are done creating your account, please select **```Download Provisioning App```** and download the ***Motus Secure Provisioning*** app from the app store. Then open the ***Motus Secure Provisioning*** app to pair your Motus mini with your mobile phone.
+
+[Walkthrough video of provisioning for IOS phones](https://drive.google.com/file/d/1xV5sv9WukduHYCSYTC8VjoTLjdfDPQgZ/view?usp=sharing)
 
 |  |  |  |
 |------|-----| ----- |
@@ -162,7 +267,7 @@ The phone’s hotspot name is the same as the iPhone’s name. You can check you
 
 Please refer to this video if you don't see your phone's name on the available Wi-Fi networks list:
 
-[Walkthrough video for IOS phones](https://drive.google.com/file/d/1rjou9D7L_t1wtvcmpLpCH5jIrkSxy-bf/view?usp=share_link)
+[Walkthrough video of provisioning for IOS phones](https://drive.google.com/file/d/1xV5sv9WukduHYCSYTC8VjoTLjdfDPQgZ/view?usp=sharing)
 
 If you don’t see your iPhone’s name on the list please toggle back to the ```Settings > Personal Hotspot``` screen, then disable and enable the hotspot and quickly come back to the  “Motus Secure Provisioning”  app again. 
 
@@ -173,11 +278,6 @@ If you don’t see your iPhone’s name on the list please toggle back to the ``
 </p>
 
 Refresh the screen from the icon on the top right corner. Now you will be able to see your iPhone on the list. This is a common issue observed while using the iPhone's hotspot feature and related to Apple.
-
-
-Sometimes ***Motus Secure Provisioning*** App prompts a failure message saying ```Wi-Fi status: authentication error```, even though the connection was successfully done. ou would know if the connection is completed successfully by checking the green part on your iPhone as the image below. The green light on your time display indicates that the Motus mini is connected to your iPhone's hotspot.
-
-
 
 
 ### Entering the hotspot password
@@ -192,6 +292,8 @@ Before entering your **phone’s hotspot password** please double check your pas
 
 If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
 
+1. **Select your phone's name**
+
 <p align="center">
 
 ![decrease](/img/IMG_0292b.png)
@@ -199,12 +301,11 @@ If you need a provisioning reset for your Motus mini, please open a support tick
 ----- ❗❗❗ ATTENTION ❗❗❗ -----
 </p>
 
->Your phone’s hotspot password is located at:
->
->**Settings** > **Personal Hotspot** 
->
->![decrease](/img/IMG_0463.png) 
+>Your phone’s hotspot password is located at: **Settings** > **Personal Hotspot** 
 
+2. **Enter your phone's hotspot password** 
+
+![decrease](/img/IMG_0463.png) 
 
 
 
@@ -215,6 +316,30 @@ After entering the password correctly, the provisioning will be completed.
 > When an auto-update is being downloaded to the Motus mini, ***Motus Secure Provisioning*** App prompts a failure message even though the provisioning is successfully done. You would know if the connection is completed successfully by checking the green part on your iPhone as the image below. The green light on your time display indicates that the Motus mini is connected to your iPhone's hotspot.
 >
 >![ios_connection](/img/green_connection.png) 
+
+### Come back to the Motus Connect & Drive App
+
+After successfully completing the provisioning process close the ***Motus Secure Provisioning*** app and open the ***Motus Connect & Drive*** app, press the ```Already Provisioned``` button. Under the ***Wallet*** section, you will see some amount of ```$tMotus``` added to your wallet balance to complete the Motus mini registration transaction on the Soarchain network.  Then, wait for the ```Register Device``` button to turn blue and then press it to complete the registration.
+
+<p align="center">
+
+![register_device](/img/register_device.png)
+
+</p>
+
+> ❗ If the  ```Register Device``` button does not turn blue please fully close the app and reopen it and try to push it again.   
+
+### Earning Rewards
+
+Upon successful registration of your device, you will unlock the complete set of features offered by the Motus Connect & Drive app, and you'll begin to accumulate tMotus tokens. It's crucial to note the following:
+
+To earn rewards, you must:
+
+- Always keep your Motus mini plugged in to your vehicle.
+- Make sure the your phone's personal hotspot is enabled and the connection between Motus mini and your phone is linked while using the app.
+- Ensure that the **Motus Connect & Drive** app is always running in the foreground until a further app update.
+
+
 
 
 
@@ -234,33 +359,3 @@ To improve your experience, you may want to consider following these steps to en
 - Go to ```Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot > Configure > Advanced ``` 
 Click the ```Turn off when no device connected for``` and make it ```Never Timeout```. Also disable the settings below. (The location of this setting can differ between devices.)
 
-
-
-### Find out More
-<div class="docs-card-container">
-  <div class="row row-cols-1 row-cols-md-3a g-3">
-    <div class="col">
-      <div class="card card-body h-100 d-flex flex-column">
-        <a
-          href="/category/key-components"
-          class="card-title card-link stretched-link"
-        >
-          <h2>Key Components</h2>
-        </a>
-        <p class="card-text">Discover the key components of the network.</p>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card card-body h-100 d-flex flex-column">
-        <a
-          href="https://www.soarchain.com/motus-mini"
-          class="card-title card-link stretched-link"
-        >
-          <h2>MOTUS</h2>
-        </a>
-        <p class="card-text">Secure connectivity hardware of Soarchain.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
