@@ -179,6 +179,24 @@ To earn rewards, you must:
 - Make sure the your phone's personal hotspot is enabled and the connection between Motus mini and your phone is linked while using the app.
 - For Android devices, ensure the **Motus Connect & Drive** app is always running in the foreground.
 
+### Important Notes
+
+#### Changing your hotspot settings
+
+After the setup process for the Motus mini is finished, it will maintain its connection to your mobile phone using the credentials you provided. However, **if you modify the name or password of your phone's hotspot credentials, the Motus mini will no longer be able to connect to your phone**. 
+
+Therefore, you should avoid changing your hotspot name or password, or alternatively, perform a device reset and repeat the provisioning process from start after you change your credentials. 
+
+If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
+
+#### Extra Android settings
+
+To improve your experience, you may want to consider following these steps to ensure that your mobile hotspot remains open at all times, thereby eliminating the need to enable it each time you use your car.  
+
+- Go to ```Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot > Configure > Advanced ``` 
+Click the ```Turn off when no device connected for``` and make it ```Never Timeout```. Also disable the settings below. (The location of this setting can differ between devices.)
+
+
 
 
 
@@ -339,23 +357,14 @@ To earn rewards, you must:
 - Make sure the your phone's personal hotspot is enabled and the connection between Motus mini and your phone is linked while using the app.
 - Ensure that the **Motus Connect & Drive** app is always running in the foreground until a further app update.
 
+### Important Notes
 
+#### Changing your hotspot settings
 
+After the setup process for the Motus mini is finished, it will maintain its connection to your mobile phone using the credentials you provided. However, **if you modify the name or password of your phone's hotspot credentials, the Motus mini will no longer be able to connect to your phone**. 
 
-
-
-## Important Notes
-
-### Changing your hotspot settings
-
-After the setup process for the Motus mini is finished, it will maintain its connection to your mobile phone using the credentials you provided. However, **if you modify the name or password of your phone's hotspot credentials, the Motus mini will no longer be able to connect to your phone**. Therefore, you should avoid changing your hotspot name or password, or alternatively, perform a device reset and repeat the provisioning process from start after you change your credentials. 
+Therefore, you should avoid changing your hotspot name or password, or alternatively, perform a device reset and repeat the provisioning process from start after you change your credentials. 
 
 If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
 
-### Extra Android settings
-
-To improve your experience, you may want to consider following these steps to ensure that your mobile hotspot remains open at all times, thereby eliminating the need to enable it each time you use your car.  
-
-- Go to ```Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot > Configure > Advanced ``` 
-Click the ```Turn off when no device connected for``` and make it ```Never Timeout```. Also disable the settings below. (The location of this setting can differ between devices.)
 
