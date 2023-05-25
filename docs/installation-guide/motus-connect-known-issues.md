@@ -49,32 +49,32 @@ Please click the link based on your phone type.
 
 Some quick reasons why the ***Motus Secure Provisioning*** app prompts ```Device not Found``` after you scan the QR code can be: 
 
-1. - Qr code was incorrect or unreadable because of its distance to the camera, orientation or lighting. 
-2. - Motus mini was not plugged into your car or the LED was not on when you scanned the Qr code. 
-3. - You did not enable the settings written on the docs. (Bluetooth - Cellular Data - Mobile Hotspot) 
-4. - Your mobile phone’s Bluetooth is connected to another device then the Motus mini when you scan the QR code. 
-5. - You have already provisioned your device successfully.
+ - Qr code scanned was incorrect or unreadable because of its distance to the camera, orientation or lighting. 
+ - Motus mini was not plugged into your car or the LED was not on when you scanned the Qr code. 
+ - You did not enable the settings written on the docs. (Bluetooth - Cellular Data - Mobile Hotspot) 
+ - Your mobile phone’s Bluetooth is connected to another device then the Motus mini when you scan the QR code. 
+ - You have already provisioned your device successfully.
 
 Please go to the:
 **Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot**
 (Mobile Hotspot location can differ from phone to phone)
 and check whether there is a device called ```Motusmini``` connected to your phone?
 
-6. - You entered your phone's hotspot password wrong and you need a provisioning reset. Click [here](#provisioning-reset) to do a provisioning reset. 
+ - You entered your phone's hotspot password wrong and you need a provisioning reset. Click [here](#provisioning-reset) to do a provisioning reset. 
 
 
 ### Provisioning - "Fail to Connect After Entering the Hotspot Password"
 
 Some quick reasons why the ***Motus Secure Provisioning*** app prompts ```Fail to Connect``` or keep on waiting for a long time after entering the phone's hotspot password: 
 
-1. - The app prompted a failure message even though the connection was successfully completed.
+ - The app prompted a failure message even though the connection was successfully completed.
 
 Please go to the:
 **Settings > Connections > Mobile Hotspot & Tethering > Mobile Hotspot**
 (Mobile Hotspot location can differ from phone to phone)
 and check whether there is a device called ```Motusmini``` connected to your phone?
 
-2. - You entered your phone's hotspot password wrong and you need a provisioning reset. Click [here](#provisioning-reset) to do a provisioning reset.  
+ - You entered your phone's hotspot password wrong and you need a provisioning reset. Click [here](#provisioning-reset) to do a provisioning reset.  
 
 
 
@@ -89,30 +89,30 @@ and check whether there is a device called ```Motusmini``` connected to your pho
 
 Some quick reasons why the ***Motus Secure Provisioning*** app prompts ```Device not Found``` after you scan the QR code can be: 
 
-1. - Qr code was incorrect or unreadable because of its distance to the camera, orientation or lighting. 
-2. - Motus mini was not plugged into your car or the LED was not on when you scanned the Qr code. 
-3. - You did not enable the settings written on the docs. (Bluetooth - Cellular Data - Mobile Hotspot) 
-4. - Your mobile phone’s Bluetooth is connected to another device then the Motus mini when you scan the QR code. 
-5. - You have already provisioned your device successfully.
+ - Qr code scanned was incorrect or unreadable because of its distance to the camera, orientation or lighting. 
+ - Motus mini was not plugged into your car or the LED was not on when you scanned the Qr code. 
+ - You did not enable the settings written on the docs. (Bluetooth - Cellular Data - Mobile Hotspot) 
+ - Your mobile phone’s Bluetooth is connected to another device then the Motus mini when you scan the QR code. 
+ - You have already provisioned your device successfully.
 
 You would know if the connection is completed successfully by checking the top left part on your iPhone's screen as the image below. The green light on your time display indicates that the Motus mini is connected to your iPhone's hotspot.
 >
 >![ios_connection](/img/green_connection.png) 
 
-6. - You entered your phone's hotspot wrong so you need a reset. Click [here](#provisioning-reset) to do a provisioning reset. 
+ - You entered your phone's hotspot wrong so you need a reset. Click [here](#provisioning-reset) to do a provisioning reset. 
 
 
 ### Provisioning - "Fail to Connect After Entering the Hotspot Password"
 
 Some quick reasons why the ***Motus Secure Provisioning*** app prompts ```Fail to Connect``` or keep on waiting for a long time after entering the phone's hotspot password: 
 
-1. - The app prompted a failure message even though the connection was successfully completed.
+ - The app prompted a failure message even though the connection was successfully completed.
 
 You would know if the connection is completed successfully by checking the top left part on your iPhone's screen as the image below. The green light on your time display indicates that the Motus mini is connected to your iPhone's hotspot.
 >
 >![ios_connection](/img/green_connection.png) 
 
-2. - You entered your phone's hotspot password wrong and you need a provisioning reset. Click [here](#provisioning-reset) to do a provisioning reset.  
+ - You entered your phone's hotspot password wrong and you need a provisioning reset. Click [here](#provisioning-reset) to do a provisioning reset.  
 
 
 
@@ -148,7 +148,7 @@ If you entered your phone's hotspot password wrong please follow the steps below
 7. 2. Right click on the **silabser.inf** file and select **Install**
 7. 3.  Follow the instructions
 
-8. Once you are able to see the device as a ```COMx``` where "x" can be any number, we can proceed to the next step to reset the device.
+8. Once you are able to see the device as a ```COMx``` where "x" can be any number, you can proceed to the next step to reset the device.
 
 9. Next, open your **Chrome** browser and navigate to this website: https://reset.soarchain.com/. Press ```Connect``` and select the ```CP210x USB to UART Bridge Controller(COMx)```. 
 
