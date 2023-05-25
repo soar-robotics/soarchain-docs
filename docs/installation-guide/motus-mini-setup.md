@@ -116,7 +116,7 @@ The phone’s hotspot name is written at ```Settings > Connections > Mobile Hots
 
 Before entering your **phone’s hotspot password** please **double check your password**. You must enter your hotspot correctly on the first try. **If entered incorrectly, the Motus mini needs to be reset using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
 
-If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
+If you need a provisioning reset for your Motus mini, please click on ​[provisioning reset](/docs/installation-guide/motus-connect-known-issues.md#provisioning-reset).
 
 1. **Select your phone's name**
 
@@ -187,7 +187,7 @@ After the setup process for the Motus mini is finished, it will maintain its con
 
 Therefore, you should avoid changing your hotspot name or password, or alternatively, perform a device reset and repeat the provisioning process from start after you change your credentials. 
 
-If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
+If you need a provisioning reset for your Motus mini, please click on ​[provisioning reset](/docs/installation-guide/motus-connect-known-issues.md#provisioning-reset). 
 
 #### Extra Android settings
 
@@ -308,7 +308,7 @@ Refresh the screen from the icon on the top right corner. Now you will be able t
 
 Before entering your **phone’s hotspot password** please double check your password. You must enter your hotspot correctly on the first try. **If entered incorrectly, the Motus mini needs to be reset using a PC with a Type-C cabled connection.** So make sure that you entered your phone’s personal hotspot password correctly on the ***Motus Secure Provisioning*** app.
 
-If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
+If you need a provisioning reset for your Motus mini, please click on ​[provisioning reset](/docs/installation-guide/motus-connect-known-issues.md#provisioning-reset).
 
 1. **Select your phone's name**
 
@@ -331,7 +331,7 @@ After entering the password correctly, the provisioning will be completed.
 
 > If you see a message saying ```Provisioning Failed```, ```Device Disconnected``` or ```You need to reset the device``` , please check if there is a device connected to your phone’s hotspot. If yes, then the provisioning is completed successfully. 
 >
-> When an auto-update is being downloaded to the Motus mini, ***Motus Secure Provisioning*** App prompts a failure message even though the provisioning is successfully done. You would know if the connection is completed successfully by checking the green part on your iPhone as the image below. The green light on your time display indicates that the Motus mini is connected to your iPhone's hotspot.
+> When an auto-update is being downloaded to the Motus mini, ***Motus Secure Provisioning*** App prompts a failure message even though the provisioning is successfully done. You would know if the connection is completed successfully by checking the top left part on your iPhone's screen as the image below. The green light on your time display indicates that the Motus mini is connected to your iPhone's hotspot.
 >
 >![ios_connection](/img/green_connection.png) 
 
@@ -365,6 +365,6 @@ After the setup process for the Motus mini is finished, it will maintain its con
 
 Therefore, you should avoid changing your hotspot name or password, or alternatively, perform a device reset and repeat the provisioning process from start after you change your credentials. 
 
-If you need a provisioning reset for your Motus mini, please open a support ticket from the ​[Soarchain Discord support ticket channel](https://discord.gg/dsbnhMVV78) explaining the problem to the Soar team in detail.   
+If you need a provisioning reset for your Motus mini, please click on ​[provisioning reset](/docs/installation-guide/motus-connect-known-issues.md#provisioning-reset).
 
 
