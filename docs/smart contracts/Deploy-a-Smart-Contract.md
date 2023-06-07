@@ -66,7 +66,7 @@ Binary file will be at `artifacts/my_first_contract.wasm` folder and its size wi
 We have the wasm binary executable ready. Now it is time to store the code to the Soarchain.
 
 ```shell
-RES=$(soarchaind tx wasm store artifacts/my_first_contract.wasm --from mywallet --gas-prices 0.1umotus --chain-id soarchaintestnet --gas auto --gas-adjustment 1.5 -y --output json -b block)
+RES=$(soarchaind tx wasm store artifacts/my_first_contract.wasm --from mywallet --gas-prices 0.025umotus --chain-id soarchaintestnet --gas auto --gas-adjustment 1.5 -y --output json -b block)
 ```
 
 If you require additional clarification regarding any of the command flags,
