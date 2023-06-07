@@ -47,9 +47,11 @@ RUSTFLAGS='-C link-arg=-s' cargo wasm
 
 This produces a file about 155K. To reduce gas costs, the binary size should be as small as possible. This will result in a less costly deployment, and lower fees on every interaction. Also, if you don’t use compilation optimization, CosmWasm smart contract will not be deployed well due to exceeds limit error.
 
-## Optimized Compilation
+The binary file which is created by **cargo wasm** is not deployable. Because **cargo wasm** doesn't actually generate a binary that's deployable. To creating a deployable binary file we would use [rust-optimizer](https://github.com/CosmWasm/rust-optimizer) which is the industry standard for building your smart contracts for deployment.
 
-You can do further optimization using [rust-optimizer](https://github.com/CosmWasm/rust-optimizer), rust-optimizer produces reproducible builds of CosmWasm smart contracts and does heavy optimization on the build size, using binary stripping and wasm-opt.
+## CosmWasm Optimizing Compiler
+
+[rust-optimizer](https://github.com/CosmWasm/rust-optimizer) Is a Docker build with a locked set of dependencies to produce reproducible builds of cosmwasm smart contracts. It also does heavy optimization on the build size. You must set the local path to the smart contract you wish to compile and it will produce an artifacts directory with <contract_name>.wasm and contracts.txt containing the hashes. This is just one file.
 
 ```shell
 docker run --rm -v "$(pwd)":/code \
@@ -60,6 +62,22 @@ docker run --rm -v "$(pwd)":/code \
 
 Binary file will be at `artifacts/my_first_contract.wasm` folder and its size will be about 130K, which is more smaller than when only `RUTFLAGS` was used.
 
+## Verifying CosmWasm smart contracts
+
+[cosmwasm-check](https://crates.io/crates/cosmwasm-check) Is a CLI tool for verifying CosmWasm smart contracts. Used to verify a Wasm binary is a CosmWasm smart contract suitable for uploading to a blockchain with a given set of capabilities.After creating a binary file of smart contract, you can check and verify the binary of a smart contract by using this tool.
+
+### Installation
+
+```shell
+cargo install cosmwasm-check
+```
+
+Check some contracts:
+
+```
+cosmwasm-check artifacts/my_first_contract.wasm
+```
+After having a valid smart contract binary, it can be stored successfully in the chain.
 
 ## Store the binary in Soarchain
 
