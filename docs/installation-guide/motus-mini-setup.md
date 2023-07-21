@@ -227,7 +227,7 @@ After plugging the Motus mini to the vehicle's OBD2 port, the Motus mini will fl
 
 To start with your Motus mini, the first step is to provision the Motus mini with your mobile phone. Please download the ***Motus Connect & Drive*** mobile app from the link below.
 
-- [Apple App Store Link](https://play.go)
+- [Apple App Store Link](https://apps.apple.com/tr/app/motus-connect-drive/id6446178680)
 
 Open your ***Motus Connect & Drive*** app and create your wallet from **```Create an Account```** button. 
 
