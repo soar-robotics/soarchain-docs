@@ -167,7 +167,7 @@ After successfully completing the provisioning process close the ***Motus Secure
 
 </p>
 
-> ❗ If the  ```Register Device``` button does not turn blue please fully close the app and reopen it and try to push it again.   
+> ❗ If the  ```Register Device``` button does not turn blue please fully close the app and reopen it and try to push it again. Still not working, unplug the Motus mini from the car and re-plug it. After that, you will be able to press the ```Register Device``` button.
 
 ### Earning Rewards
 
@@ -177,7 +177,7 @@ To earn rewards, you must:
 
 - Always keep your Motus mini plugged in to your vehicle.
 - Make sure the your phone's personal hotspot is enabled and the connection between Motus mini and your phone is linked while using the app.
-- For Android devices, ensure the **Motus Connect & Drive** app is always running in the foreground.
+- For Android devices, ensure the **Motus Connect & Drive** app is always running while you are driving.
 
 ### Important Notes
 
@@ -355,7 +355,7 @@ To earn rewards, you must:
 
 - Always keep your Motus mini plugged in to your vehicle.
 - Make sure the your phone's personal hotspot is enabled and the connection between Motus mini and your phone is linked while using the app.
-- Ensure that the **Motus Connect & Drive** app is always running in the foreground until a further app update.
+- Ensure that the **Motus Connect & Drive** app is always running while you are driving.
 
 ### Important Notes
 

@@ -4,6 +4,7 @@ sidebar_position: 2
 
 # Motus mini and Mobile App Known Issues
 
+<!---
 ## Understanding Your Device's LED Output Behavior
 
 Motus mini is equipped with an RGB LED, where the Red Channel is connected to the power supply. This means that the Red LED is always on when the device has power. The device uses different LED patterns to indicate its current state. Here's what each pattern means:
@@ -33,7 +34,7 @@ When the device receives data through a websocket, the LED will blink in a uniqu
 >Please note that all LED indications, except for the 'Blink on Websocket Data Received', are displayed in magenta color. The 'Blink on Websocket Data Received' indication is displayed in white color. The Red LED will always be on when the device has power due to its connection to the power supply.
 
 >By understanding these LED patterns, you can easily determine the current state of your device.
-
+-->
 ## Select your phone's OS
 
 Please click the link based on your phone type. 
@@ -119,6 +120,12 @@ You would know if the connection is completed successfully by checking the top l
 ## Provisioning Reset
 
 If you entered your phone's hotspot password wrong please follow the steps below.
+
+- Refer back to the label printed inside the black Motus mini box. If your Motus mini model number is **#000103**:
+
+**Press and hold on the button on the Motus mini for 6 seconds. You will see the LED lights change their state after holding the button for 6 seconds. This indicates the provisioning reset was completed. Finally, you can try to provision your Motus mini again.**
+
+- Refer back to the label printed inside the black Motus mini box. If your Motus mini model number is **#000102**:
 
 1. Ensure that there are no devices connected to your phone's mobile hotspot by checking from your phone's settings, including the Motus mini. It's possible that the connection may still go through even if the provisioning app prompts a failure. 
 
