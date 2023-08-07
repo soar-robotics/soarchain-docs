@@ -77,7 +77,7 @@ console.log("Contract Data", contractData)
 
 If you run the code, you will see the below result as a response:
 
-![Query](/img/query.png)
+![Query](/img/query-contract.png)
 
 ### Changing the state of the contract
 
@@ -110,6 +110,6 @@ Let's see how it works:
 
 After running this code, you will get bellow response:
 
-![Contract-tx](/img/contratc-tx.png)
+![Contract-tx](/img/execute-contract-tx.png)
 
 The tx hash is prepared and count increased.
