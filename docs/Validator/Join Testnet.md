@@ -9,14 +9,14 @@ First, we need to download the correct genesis file and sync our node with the s
 ```sh
 coming soon
 ```
-Copy genesis file into .soarchain/config directory
+Copy the genesis file into the .soarchain/config directory
 
 ```sh
 cp genesis.json .soarchain/config
 
 ```
 
-Open the config.toml to edit the node-name and seeds, persistent_peers:
+Open config.toml to edit the node-name, seeds, and persistent_peers:
 
 ```sh
 cd $HOME/.soarchain/config
@@ -38,7 +38,7 @@ Add persistent_peers:
 persistent_peers = "Will be given when testnet starts"
 
 ```
-Next, we need to chose how much historical state we want to store. To open the application config file:
+Next, we need to choose how much historical state we want to store. To open the application config file:
 
 ```sh
 nano $HOME/.soarchaind/config/app.toml
@@ -50,7 +50,7 @@ In this file, you can choose between default, nothing, and everything. To reduce
 pruning = "default"
 ```
 
-In the same file, node admin can set minimum gas price:
+In the same file, a node admin can set the minimum gas price:
 
 ```sh
 minimum-gas-prices = "0.001utmotus"
@@ -62,7 +62,7 @@ To start syncing:
 soarchaind start --log_level info --minimum-gas-prices=0.0001umotus
 ```
 
-To check on the status of syning:
+To check on the status of syncing.
 ```sh
 soarchaind status --output json jq '.sync_info'
 ```
