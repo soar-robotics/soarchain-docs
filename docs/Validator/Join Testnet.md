@@ -53,7 +53,7 @@ pruning = "default"
 In the same file, node admin can set minimum gas price:
 
 ```sh
-minimum-gas-prices = "0.001motus"
+minimum-gas-prices = "0.001utmotus"
 ```
 
 To start syncing:

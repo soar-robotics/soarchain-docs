@@ -55,20 +55,4 @@ $ go version
 go version go1.18.1 linux/amd64
 ```
 
-## Install Ignite CLI
-
-Currently, Soarchain uses Ignite to build the chain.
-
-
-```sh
-curl https://get.ignite.com/cli! | bash
-```
-
-
-```sh
-$ ignite version
-Ignite CLI version: v0.26.1
-...
-```
-
 
