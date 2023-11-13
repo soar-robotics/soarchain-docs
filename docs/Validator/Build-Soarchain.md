@@ -6,7 +6,7 @@ sidebar_position: 2
 
 The following section explains how to build the Soarchain full node:
 
-In order to build Soarchain, source code is needed.
+In order to build Soarchain, the source code is needed.
 
 To do that,
 Clone the Soarchain-core repo:
@@ -15,7 +15,7 @@ cd $HOME
 git clone git@github.com:soar-robotics/soarchain-core.git
 ```
 
-Then, run makefile to build the Soarchain-core:
+Then, run the makefile to build Soarchain-core:
 ```sh
 ./run_makefile.sh
 ```
@@ -31,7 +31,7 @@ To verify that soarchain is installed:
 soarchind version --long
 ```
 
-If you're the one of the validator that using the binary to run a node follow here: 
+# If you're one of the validators using the binary to run a node, follow here:
 
 Extract the binary file: 
 
@@ -47,20 +47,20 @@ chmod +x soarchaind
 sudo mv soarchaind /usr/local/bin
 ```
 
-Now its time to do some configs. 
+Now it's time to do some configurations. 
 ```sh
 soarchaind init your-node-name --chain-id soarchaintestnet
 soarchaind config keyring-backend os
 soarchaind config chain-id soarchaintestnet
 ```
 
-Add your accounts to the node, if you want to recover from mnemonic use --recover option:
+Add your accounts to the node; if you want to recover from a mnemonic, use the --recover option:
 
 ```sh
 soarchaind keys add name-your-account --keyring-backend os --algo secp256k1
 soarchaind keys add name-your-account --recover --keyring-backend test --algo secp256k1 
 ```
-Then please run makefile, this makefile will add persistent peers and timeout_commit to your config.toml
+Then please run the makefile; this makefile will add persistent peers and timeout_commit to your config.toml
 
 ```sh
 cd release 

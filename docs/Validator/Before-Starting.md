@@ -7,8 +7,7 @@ Soarchain utilizes Tendermint Core as its underlying technology, which leverages
 
 To become validators, individuals are required to bond the native $MOTUS token of Soarchain and have tokens delegated to them by token holders. Validators and their delegators receive rewards in $MOTUS for their contribution towards the security of the Soarchain. Validators are permitted to set a commission on the rewards earned by their delegators.
 
-In addition to validators, the Soarchain community promotes and encourages anyone to run a full node of the network to broadcast transactions and connect directly to the network. As Soarchain expands, the core development team and community will continually maintain the chain and release new requirements for node administrators.
-
+In addition to validators, the Soarchain community promotes and encourages anyone to run a full node of the network to broadcast transactions and connect directly to the network. As Soarchain expands, the core development team and community will continuously maintain the chain and release new requirements for node administrators,
 
 # Hardware prerequisites
 
@@ -54,5 +53,4 @@ Check Go version:
 $ go version
 go version go1.18.1 linux/amd64
 ```
-
 
