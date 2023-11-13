@@ -123,7 +123,7 @@ sudo systemctl start soarchaind
 Check it is running using:
 
 ```sh
-sudo systemctl status junod
+sudo systemctl status soarchaind
 ```
 If you need to monitor the service after launch, you can view the logs using:
 
