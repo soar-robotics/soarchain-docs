@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Build Soarchain
+# Build Soarchain Node
 
 ## Step 1: Download and Unzip the File
 

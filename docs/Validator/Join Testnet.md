@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Quick Guide to Starting and Monitoring Syncing on Soarchain
+# Initialize the Soarchain Node
 
 ## Starting the Syncing Process
 
@@ -28,10 +28,8 @@ To monitor the progress of your node's syncing with the Soarchain blockchain, us
 2. **Run this command** to check the sync status:
 
     ```bash
-    soarchaind status | jq '.sync_info'
+    soarchaind status 
     ```
-
-    - This command fetches the current status of your node in JSON format and uses `jq` to parse and display the sync information.
     - You will see various details about the syncing process, including the latest block height your node has synced to.
 
 By following these steps, you can effectively start syncing your Soarchain node and monitor its progress to ensure it is successfully staying up to date with the blockchain.

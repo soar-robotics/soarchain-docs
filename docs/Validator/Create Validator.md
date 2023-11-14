@@ -4,34 +4,49 @@ sidebar_position: 4
 
 # Become a Validator at Soarchain
 
-There are two methods to become a validator. The first way is by being pre-established in the genesis state. Alternatively, the existing validator set can be changed in response to the EndBlock message by the ABCI app.
+## Overview
 
-## Initialize Wallet Keyring
+This guide provides a comprehensive overview of how to become a validator on Soarchain. There are two primary methods to become a validator:
 
-You can add an existing wallet through your seed phrase or you can create a new wallet:
+1. **Being Pre-established in the Genesis State:** Validators can be part of the initial setup.
+2. **Change in Response to the EndBlock Message:** The existing validator set can be altered based on the ABCI application's EndBlock message.
 
-```sh
+## Step 1: Initialize Wallet Keyring
+
+To become a validator, first, you need to set up your wallet keyring. You have two options:
+
+- **Add an Existing Wallet:** Use your seed phrase to add an existing wallet.
+- **Create a New Wallet:** Generate a new wallet.
+
+### Add or Create a Wallet
+
+```bash
 soarchaind keys add KEY_NAME
 ```
 
-You can check your mnemonic using:
+### Check Your Mnemonic
 
-```sh
+```bash
 soarchaind keys list
 ```
-## Validator Public Key
 
-Before you can initialize your validator, you need to obtain your validator public key, which was generated when you initialized your node. To retrieve your validator pubkey:
+## Step 2: Obtain Validator Public Key
 
-```sh
+Before initializing your validator, you need to retrieve your validator public key.
+
+### Retrieve Validator Public Key
+
+```bash
 soarchaind tendermint show-validator
 ```
 
-## Create Validator Tx
+## Step 3: Create Validator Transaction
 
-To successfully send a transaction, make sure you have a small amount of $MOTUS in the wallet address associated with your keyring.
+Ensure you have a small amount of $MOTUS in your wallet for transaction fees.
 
-```sh
+### Command to Create a Validator
+
+```bash
 soarchaind tx staking create-validator \
 --from=[KEY_NAME] \
 --amount=[staking_amount] \
@@ -44,9 +59,9 @@ soarchaind tx staking create-validator \
 --min-self-delegation="[min_self_delegation_amount]" \
 ```
 
-The following command is provided as an example with sample values:
+### Example Command
 
-```sh
+```bash
 soarchaind tx staking create-validator \
 --from=flyingcar \
 --amount=2000000utmotus \
