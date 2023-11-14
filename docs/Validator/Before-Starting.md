@@ -18,7 +18,9 @@ The following minimum hardware requirements are recommended for running a full n
 - 250 GB SSD Storage
 - 100 Mbps for Download/100 Mbps for Upload
 
+# OS requeremets 
 
+Please use 22.04 version of Ubuntu
 
 # Setting up dependencies
 
@@ -51,7 +53,7 @@ source  $HOME/.bashrc
 
 Check Go version:
 ```sh
-$ go version
-go version go1.18.1 linux/amd64
+go version
 ```
+Expected output is: go version go1.18.1 linux/amd64
 

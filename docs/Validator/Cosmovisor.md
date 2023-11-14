@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Setting up Cosmovisor
 
 Configuring Cosmovisor is generally uncomplicated. Nonetheless, it requires the setup of specific environment variables and a designated folder structure. Cosmovisor facilitates the advance downloading of binaries for chain upgrades, enabling upgrades with minimal or no downtime. This feature is particularly beneficial if a chain upgrade is scheduled at an inconvenient time due to time zone differences. Instead of performing challenging operational tasks late at night, Cosmovisor aims to automate these processes, offering a more streamlined solution.
