@@ -26,6 +26,27 @@ For a Testnet full node, ensure the following minimum hardware requirements:
 - **Storage:** 250 GB SSD.
 - **Network:** 100 Mbps Download/Upload.
 
+### Network Configuration
+
+Before setting up the software dependencies, ensure the following network ports are available:
+
+- **gRPC server:** Port `9090` open for gRPC server communication.
+- **REST server:** Port `1317` open for REST server requests.
+- **Tendermint RPC endpoint:** Ports `26657` and `26656` open for Tendermint RPC connections.
+
+Additionally, configure the Uncomplicated Firewall (ufw) to allow traffic on these ports:
+
+```bash
+sudo ufw enable
+sudo ufw allow 22/tcp
+sudo ufw allow 9090/tcp
+sudo ufw allow 1317/tcp
+sudo ufw allow 26657/tcp
+sudo ufw allow 26656/tcp
+```
+
+This configures the firewall to only allow incoming connections on the gRPC, REST, and Tendermint RPC ports while keeping all other ports closed to public communication. Ensure you have allowed SSH (port 22 by default) to maintain remote access to the server.
+
 ### Setting Up Dependencies
 
 #### Update and Upgrade OS:

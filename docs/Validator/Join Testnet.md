@@ -15,11 +15,11 @@ Once you've set up your Soarchain full node, the next step is to start syncing i
 2. **Execute the following command** to start the syncing process:
 
     ```bash
-    soarchaind start --log_level info --minimum-gas-prices=0.0001umotus
+    soarchaind start --log_level info --minimum-gas-prices=0.0001utmotus
     ```
 
     - This command starts the Soarchain daemon with logging level set to `info`, providing a moderate amount of log output.
-    - The `--minimum-gas-prices` flag sets the minimum gas prices to `0.0001umotus`, a necessary parameter for transaction processing.
+    - The `--minimum-gas-prices` flag sets the minimum gas prices to `0.0001utmotus`, a necessary parameter for transaction processing.
 
 ## Checking the Status of Syncing
 
