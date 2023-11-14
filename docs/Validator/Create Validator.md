@@ -21,7 +21,7 @@ To become a validator, first, you need to set up your wallet keyring. You have t
 ### Add or Create a Wallet
 
 ```bash
-soarchaind keys add KEY_NAME
+soarchaind keys add YOUR_KEY_NAME
 ```
 
 ### Check Your Mnemonic
@@ -72,7 +72,7 @@ soarchaind tx staking create-validator \
 --commission-max-rate="0.2" \
 --commission-max-change-rate="0.05" \
 --min-self-delegation="1" \
---gas="auto" \
+--gas=203173 \
 --gas-prices="0.0001utmotus"
 
 ```

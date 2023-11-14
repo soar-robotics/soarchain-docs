@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Build Soarchain Node
 
-### Step 1: Download and Unzip the File
+## Step 1: Download and Unzip the File
 
 1. **Locate the `release.zip` File:**
    - Ensure the `release.zip` file is downloaded to your local machine.
@@ -22,7 +22,7 @@ sidebar_position: 2
      ```
      This extracts the contents into a folder.
 
-### Step 2: Transfer Files to the Remote Server
+## Step 2: Transfer Files to the Remote Server
 
 1. **Prepare to Transfer:**
    - Ensure you have the username, IP address of the remote server, and the destination path where you want to transfer the files.

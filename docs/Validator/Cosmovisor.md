@@ -74,7 +74,7 @@ which soarchaind
 Then use the path returned to copy it or use $HOME to the directory Cosmovisor expects. 
 
 ```sh
-cp $HOME/go/bin/soarchaind $DAEMON_HOME/cosmovisor/genesis/bin
+cp $(which soarchaind) $DAEMON_HOME/cosmovisor/genesis/bin
 ```
 
 ## Set up service
@@ -89,7 +89,7 @@ First, create the service file:
 sudo nano /etc/systemd/system/soarchaind.service
 ```
 
-Check the fileds: 
+Add these fileds: 
 
 ```sh
 [Unit]
@@ -97,13 +97,13 @@ Description=Soarchain Daemon (cosmovisor)
 After=network-online.target
 
 [Service]
-User=<your-user>
-ExecStart=/home/<your-user>/go/bin/cosmovisor start --log_level info --minimum-gas-pric>
+User=<your-ubuntu-user-name>
+ExecStart=/home/<yyour-ubuntu-user-name>/go/bin/cosmovisor start --log_level info --minimum-gas-pric>
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
 Environment="DAEMON_NAME=soarchaind"
-Environment="DAEMON_HOME=/home/<your-user>/.soarchain"
+Environment="DAEMON_HOME=/home/<your-ubuntu-user-namer>/.soarchain"
 Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
 Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 Environment="DAEMON_LOG_BUFFER_SIZE=512"
@@ -120,8 +120,12 @@ Enable the service and start it:
 
 ```sh
 sudo -S systemctl daemon-reload
+```
+```sh
 sudo -S systemctl enable soarchaind
+```
 # check config one last time before starting!
+```sh
 sudo systemctl start soarchaind
 ```
 Check it is running using:
@@ -136,3 +140,5 @@ journalctl -fu soarchaind
 ```
 
 If you fail in any step please contact with us trough Discord or our other channels.
+
+After setting up your Cosmoviser, please continuw with the [Become a Validator](https://docs.soarchain.com/Validator/Create%20Validator) step.

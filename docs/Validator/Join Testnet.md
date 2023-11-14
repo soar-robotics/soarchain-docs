@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Initialize the Soarchain Node
 
+We strongly recommend to run the node with cosmovisor, so please refer here ​[cosmovisor](https://docs.soarchain.com/Validator/Cosmovisor) 
+
 ## Starting the Syncing Process
 
 Once you've set up your Soarchain full node, the next step is to start syncing it with the blockchain. Here's how you can initiate the syncing process:
