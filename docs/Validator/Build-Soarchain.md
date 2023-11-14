@@ -31,7 +31,7 @@ To verify that soarchain is installed:
 soarchind version --long
 ```
 
-# If you're one of the validators using the binary to run a node, follow here:
+# External validators will not do the first part of Build Soarchain, they will have to start from the If you're one of the validators using the binary to run a node, follow here:
 
 Extract the binary file: 
 
@@ -47,11 +47,9 @@ chmod +x soarchaind
 sudo mv soarchaind /usr/local/bin
 ```
 
-Now it's time to do some configurations. 
+Now it's time to do some configurations. This will input your node name and creates the node for you, moreover, this makefile will add persistent peers and timeout_commit to your config.toml. Also it will add some dependencies and testnet genesis file.
 ```sh
-soarchaind init your-node-name --chain-id soarchaintestnet
-soarchaind config keyring-backend os
-soarchaind config chain-id soarchaintestnet
+./run_makefile
 ```
 
 Add your accounts to the node; if you want to recover from a mnemonic, use the --recover option:
@@ -60,9 +58,5 @@ Add your accounts to the node; if you want to recover from a mnemonic, use the -
 soarchaind keys add name-your-account --keyring-backend os --algo secp256k1
 soarchaind keys add name-your-account --recover --keyring-backend test --algo secp256k1 
 ```
-Then please run the makefile; this makefile will add persistent peers and timeout_commit to your config.toml
 
-```sh
-cd release 
-./run_makefile.sh
-```
+That's all the things you need to do. You can continue with creating the validator and cosmovisor part if required. 

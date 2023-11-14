@@ -48,17 +48,19 @@ The following command is provided as an example with sample values:
 
 ```sh
 soarchaind tx staking create-validator \
---from=wallet \
---amount=500000000motus \
+--from=flyingcar \
+--amount=2000000utmotus \
 --pubkey=$(soarchaind tendermint show-validator)  \
---moniker="zeus" \
+--moniker="flyingcar" \
 --chain-id="soarchaintestnet" \
 --commission-rate="0.1" \
 --commission-max-rate="0.2" \
 --commission-max-change-rate="0.05" \
---min-self-delegation="500000000" \
---gas="auto" \
---gas-prices="0.0025motus"
+--min-self-delegation="1" \
+--gas=auto \
+--gas-adjustment=1.5 \
+--gas-prices="0.0001utmotus"
+
 ```
 If you require additional clarification regarding any of the command flags,
 <details>

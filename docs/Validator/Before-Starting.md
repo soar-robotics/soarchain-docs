@@ -36,16 +36,22 @@ sudo apt install git build-essential ufw curl jq snapd --yes
 
 ## Install Go 1.18
 
-Currently, Soarchain uses Go 1.18 to compile the code.
+Currently, Soarchain uses Go 1.18 to compile the code and run the binary.
 
 ```sh
 wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.18.1
 ```
 
 Now add /usr/local/go/bin directory to $PATH:
+
 ```sh
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 source $HOME/.bash_profile
+```
+or:
+
+```sh
+source /home/user_name/.bashrc
 ```
 
 Check Go version:
