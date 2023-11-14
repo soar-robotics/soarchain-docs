@@ -46,12 +46,7 @@ Now add /usr/local/go/bin directory to $PATH:
 
 ```sh
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
-source $HOME/.bash_profile
-```
-or:
-
-```sh
-source /home/user_name/.bashrc
+source  $HOME/.bashrc
 ```
 
 Check Go version:

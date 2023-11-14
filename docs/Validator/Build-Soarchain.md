@@ -49,7 +49,7 @@ sudo mv soarchaind /usr/local/bin
 
 Now it's time to do some configurations. This will input your node name and creates the node for you, moreover, this makefile will add persistent peers and timeout_commit to your config.toml. Also it will add some dependencies and testnet genesis file.
 ```sh
-./run_makefile
+./run_makefile.sh
 ```
 
 Add your accounts to the node; if you want to recover from a mnemonic, use the --recover option:
