@@ -4,30 +4,35 @@ sidebar_position: 2
 
 # Build Soarchain Node
 
-## Step 1: Download and Unzip the File
+### Step 1: Download and Unzip the File
 
-**Locate the `release.zip` File:** Ensure you have the `release.zip` file downloaded on your local machine.
-
-**Unzip the File:**
-   - Open your terminal.
-   - Navigate to the directory containing `release.zip`.
-   - Run the following command:
+1. **Locate the `release.zip` File:**
+   - Ensure the `release.zip` file is downloaded to your local machine.
+   - To confirm the file's location, list it directly:
+     ```bash
+     ls release.zip
      ```
+     This command will display `release.zip` if it's in the current directory. If not, ensure you're in the correct directory or move the file accordingly.
+
+2. **Unzip the File:**
+   - Open your terminal and navigate to the directory containing `release.zip`.
+   - Run the following command to unzip:
+     ```bash
      unzip release.zip
      ```
-   - This will extract the contents into a folder
+     This extracts the contents into a folder.
 
-## Step 2: Transfer Files to the Remote Server
+### Step 2: Transfer Files to the Remote Server
 
 1. **Prepare to Transfer:**
-   - Ensure you know the username, IP address of the remote server, and the destination path where you want to transfer the files.
+   - Ensure you have the username, IP address of the remote server, and the destination path where you want to transfer the files.
 
 2. **Transfer the Files:**
-   - In your terminal, use the `scp` command to securely copy the extracted folder to your remote server:
-     ```
+   - Use the `scp` command in your terminal to securely copy the extracted folder:
+     ```bash
      scp -r <extracted_folder> <username>@<remote-server-IP>:<destination-path>
      ```
-   - Replace `<extracted_folder>`, `<username>`, `<remote-server-IP>`, and `<destination-path>` with the appropriate values.
+     Replace `<extracted_folder>`, `<username>`, `<remote-server-IP>`, and `<destination-path>` with the appropriate values.
 
 
 ## Step 3: Set Up Soarchain on the Remote Server
