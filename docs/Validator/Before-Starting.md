@@ -2,58 +2,69 @@
 sidebar_position: 1
 ---
 
-# Before starting
-Soarchain utilizes Tendermint Core as its underlying technology, which leverages a group of validators to verify and validate new blocks added to the blockchain. These validators are full node operators who participate in the consensus protocol by broadcasting votes that contain signatures of them.
+## Introduction
 
-To become validators, individuals are required to bond the native $MOTUS token of Soarchain and have tokens delegated to them by token holders. Validators and their delegators receive rewards in $MOTUS for their contribution towards the security of the Soarchain. Validators are permitted to set a commission on the rewards earned by their delegators.
+Soarchain is a blockchain network powered by Tendermint Core, relying on validators to maintain its integrity and security. Validators, who are full node operators, participate in the consensus protocol and are incentivized with $MOTUS tokens. This guide provides a brief overview of becoming a validator and setting up a full node for Soarchain.
 
-In addition to validators, the Soarchain community promotes and encourages anyone to run a full node of the network to broadcast transactions and connect directly to the network. As Soarchain expands, the core development team and community will continuously maintain the chain and release new requirements for node administrators,
+### Before Starting
 
-# Hardware prerequisites
+#### Understanding Validators:
+- Validators verify and validate new blocks on the Soarchain blockchain.
+- To become a validator, bond the native $MOTUS token.
+- Validators earn rewards in $MOTUS, sharing a commission with their delegators.
 
-The following minimum hardware requirements are recommended for running a full node on the Testnet:
+#### Full Nodes:
+- Running a full node helps broadcast transactions and maintain network connectivity.
+- As the network grows, continuous maintenance and updates are required.
 
-- 8-core (4 physical core), x86_64 architecture processor
-- 16 GB RAM 
-- 250 GB SSD Storage
-- 100 Mbps for Download/100 Mbps for Upload
+### Hardware Prerequisites
 
-# OS requeremets 
+For a Testnet full node, ensure the following minimum hardware requirements:
 
-Please use 22.04 version of Ubuntu
+- **CPU:** 8-core (4 physical cores), x86_64 architecture.
+- **Memory:** 16 GB RAM.
+- **Storage:** 250 GB SSD.
+- **Network:** 100 Mbps Download/Upload.
 
-# Setting up dependencies
+### Setting Up Dependencies
 
-First, make sure to update and upgrade the OS:
+#### Update and Upgrade OS:
 
-
-```sh
+```bash
 sudo apt update && sudo apt upgrade -y
 ```
-## Install Build Requirements 
 
-```sh
+#### Install Build Requirements:
+
+```bash
 sudo apt install git build-essential ufw curl jq snapd --yes
 ```
 
-## Install Go 1.18
+#### Install Go 1.18:
 
-Currently, Soarchain uses Go 1.18 to compile the code and run the binary.
+Soarchain uses Go 1.18 for compiling code.
 
-```sh
+```bash
 wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.18.1
 ```
 
-Now add /usr/local/go/bin directory to $PATH:
+#### Configure Go PATH:
 
-```sh
+Add Go binaries to your system path.
+
+```bash
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
-source  $HOME/.bashrc
+source $HOME/.bashrc
 ```
 
-Check Go version:
-```sh
-go version
-```
-Expected output is: go version go1.18.1 linux/amd64
+#### Verify Go Installation:
 
+Check the installed Go version.
+
+```bash
+go version # Expected: go1.18.1 linux/amd64
+```
+
+## Conclusion
+
+This guide provides a high-level overview of setting up a full node for Soarchain, from understanding the roles of validators and full nodes to configuring the necessary hardware and software dependencies. As Soarchain evolves, staying updated with the latest requirements and best practices is crucial for node administrators.
