@@ -53,46 +53,30 @@ sidebar_position: 2
 ## Step 4: Finalize Installation
 
 1. **Set Execution Permissions:**
-   - Set the necessary permissions to the binary file:
-     ```
+   - Grant execution rights to the binary file:
+     ```bash
      chmod +x soarchaind
      ```
 
 2. **Move Binary to a Global Location:**
-   - Move the `soarchaind` binary to `/usr/local/bin` to allow execution from any location:
-     ```
+   - Relocate `soarchaind` for system-wide accessibility:
+     ```bash
      sudo mv soarchaind /usr/local/bin
-     ```
-
-3. **Verification:**
-   - Verify that `soarchaind` can be run from any location:
-     ```
-     soarchaind --version
      ```
 
 ## Step 5: Configuration
 
 1. **Run Configuration Script:**
-   - Execute the `run_makefile.sh` script to configure your node:
-     ```
+   - Execute `run_makefile.sh` to configure your node:
+     ```bash
      ./run_makefile.sh
      ```
-   - This script will set up your node name, add persistent peers and timeout_commit to your `config.toml`, and install necessary dependencies and the testnet genesis file.
+     - This script sets up your node name, updates `config.toml` with persistent peers and timeout_commit, and adds necessary dependencies and the testnet genesis file.
 
-## Step 6: Adding Accounts to the Node
-
-1. **Create a New Account:**
-   - To add a new account to your node:
+2. **Verification Post-Configuration:**
+   - Check the `soarchaind` version to confirm successful setup:
+     ```bash
+     soarchaind version
      ```
-     soarchaind keys add name-your-account --keyring-backend os --algo secp256k1
-     ```
-   - Replace `name-your-account` with your desired account name.
-   - **Ensure that you have saved your mnemonic phrase before moving on!
-
-2. **Recover an Account Using Mnemonic:**
-   - If you need to recover an account using a mnemonic phrase:
-     ```
-     soarchaind keys add name-your-account --recover --keyring-backend test --algo secp256k1
-     ```
-   - Follow the prompts to enter your mnemonic phrase.
+     - Run this command after executing `./run_makefile.sh` to verify that `soarchaind` is correctly installed and can be run from any location.
 
