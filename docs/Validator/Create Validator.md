@@ -57,8 +57,7 @@ soarchaind tx staking create-validator \
 --commission-max-rate="0.2" \
 --commission-max-change-rate="0.05" \
 --min-self-delegation="1" \
---gas=auto \
---gas-adjustment=1.5 \
+--gas="auto" \
 --gas-prices="0.0001utmotus"
 
 ```

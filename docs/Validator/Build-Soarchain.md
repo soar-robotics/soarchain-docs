@@ -87,7 +87,7 @@ sidebar_position: 2
      soarchaind keys add name-your-account --keyring-backend os --algo secp256k1
      ```
    - Replace `name-your-account` with your desired account name.
-   *Make sure you saved your mnemonics phrase before moving on!
+   - **Ensure that you have saved your mnemonic phrase before moving on!
 
 2. **Recover an Account Using Mnemonic:**
    - If you need to recover an account using a mnemonic phrase:

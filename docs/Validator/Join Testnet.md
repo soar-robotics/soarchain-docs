@@ -2,67 +2,36 @@
 sidebar_position: 3
 ---
 
-# Initialize Soarchain Node
+# Quick Guide to Starting and Monitoring Syncing on Soarchain
 
-First, we need to download the correct genesis file and sync our node with the soarchain testnet. 
+## Starting the Syncing Process
 
-```sh
-coming soon
-```
-Copy the genesis file into the .soarchain/config directory
+Once you've set up your Soarchain full node, the next step is to start syncing it with the blockchain. Here's how you can initiate the syncing process:
 
-```sh
-cp genesis.json .soarchain/config
+1. **Open your terminal** and ensure you're connected to your server where the Soarchain node is set up.
 
-```
+2. **Execute the following command** to start the syncing process:
 
-Open config.toml to edit the node-name, seeds, and persistent_peers:
+    ```bash
+    soarchaind start --log_level info --minimum-gas-prices=0.0001umotus
+    ```
 
-```sh
-cd $HOME/.soarchain/config
-nano config.toml
-```
-Replace NODE_NAME with the name of your node:
-```sh
-moniker = "NODE_NAME"
-```
+    - This command starts the Soarchain daemon with logging level set to `info`, providing a moderate amount of log output.
+    - The `--minimum-gas-prices` flag sets the minimum gas prices to `0.0001umotus`, a necessary parameter for transaction processing.
 
-Replace seeds = "" with the following:
+## Checking the Status of Syncing
 
-```sh
-seeds = "Will be given when testnet starts"
+To monitor the progress of your node's syncing with the Soarchain blockchain, use the following command:
 
-```
-Add persistent_peers:
-```sh
-persistent_peers = "Will be given when testnet starts"
+1. **In your terminal**, while the node is running, open a new terminal session or tab to check the syncing status.
 
-```
-Next, we need to choose how much historical state we want to store. To open the application config file:
+2. **Run this command** to check the sync status:
 
-```sh
-nano $HOME/.soarchaind/config/app.toml
-```
+    ```bash
+    soarchaind status | jq '.sync_info'
+    ```
 
-In this file, you can choose between default, nothing, and everything. To reduce hard drive storage, choose “everything” or “default”. To run an archival node, chose nothing
+    - This command fetches the current status of your node in JSON format and uses `jq` to parse and display the sync information.
+    - You will see various details about the syncing process, including the latest block height your node has synced to.
 
-```sh
-pruning = "default"
-```
-
-In the same file, a node admin can set the minimum gas price:
-
-```sh
-minimum-gas-prices = "0.001utmotus"
-```
-
-To start syncing:
-
-```sh
-soarchaind start --log_level info --minimum-gas-prices=0.0001umotus
-```
-
-To check on the status of syncing.
-```sh
-soarchaind status --output json jq '.sync_info'
-```
+By following these steps, you can effectively start syncing your Soarchain node and monitor its progress to ensure it is successfully staying up to date with the blockchain.
