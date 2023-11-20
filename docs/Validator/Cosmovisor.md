@@ -98,7 +98,7 @@ After=network-online.target
 
 [Service]
 User=<your-ubuntu-user-name>
-ExecStart=/home/<yyour-ubuntu-user-name>/go/bin/cosmovisor start --log_level info --minimum-gas-pric>
+ExecStart=/home/<your-ubuntu-user-name>/go/bin/cosmovisor start --log_level info --minimum-gas-prices=0.0001utmotus
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
@@ -141,4 +141,4 @@ journalctl -fu soarchaind
 
 If you fail in any step please contact with us trough Discord or our other channels.
 
-After setting up your Cosmoviser, please continuw with the [Become a Validator](https://docs.soarchain.com/Validator/Create%20Validator) step.
+# After setting up your Cosmoviser, please continuw with the [Become a Validator](https://docs.soarchain.com/Validator/Create%20Validator) step.
