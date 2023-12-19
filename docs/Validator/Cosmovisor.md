@@ -139,6 +139,6 @@ If you need to monitor the service after launch, you can view the logs using:
 journalctl -fu soarchaind
 ```
 
-If you fail in any step please contact with us trough Discord or our other channels.
+If you fail in any step please contact with us through Discord or our other channels.
 
-# After setting up your Cosmoviser, please continuw with the [Become a Validator](https://docs.soarchain.com/Validator/Create%20Validator) step.
+# After setting up your Cosmoviser, please continue with the [Become a Validator](https://docs.soarchain.com/Validator/Create%20Validator) step.
