@@ -2,58 +2,56 @@
 sidebar_position: 4
 ---
 
-# Soarchain Smart Contract Starter Pack
+# Soarchain Smart Contract Starter Kit
 
-This is a template to build smart contracts in Rust to run inside a
-[Cosmos SDK](https://github.com/cosmos/cosmos-sdk) module on all chains that enable it.
-To understand the framework better, please read the overview in the
-[soarchain repo](https://github.com/soar-robotics/soarchain-contract-template/blob/master/README.md),
-This assumes you understand the theory and just want to get coding.
+Welcome to the Soarchain Smart Contract guide! This guie is designed to help you build smart contracts in Rust, specifically for deployment in modules compatible with the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk). It's crafted for all chains that support this functionality. To get a comprehensive understanding of the underlying framework, we highly recommend reviewing the detailed overview provided in the [Soarchain contract templates repository](https://github.com/soar-robotics/soarchain-contract-template/blob/master/README.md). This guide presumes a foundational knowledge of blockchain theory and a readiness to dive into coding.
 
-**Basic Blockchain & DApp Understanding** — These documents suppose you are familiar with, or having used DApps before. We also will be assuming that you have Blockchain installed and have a basic understanding of it.
 
-## Creating a new repo from template
+**Essential Blockchain & DApp Knowledge** — This documentation assumes your familiarity with blockchain concepts, DApps, and the basic operational knowledge of Blockchain.
 
-Assuming you have a recent version of Rust and Cargo installed
-(via [rustup](https://rustup.rs/)),
-then the following should get you a new repo to start a contract:
-[Creating a new repo from template](https://github.com/soar-robotics/soarchain-contract-template/blob/master/README.md#creating-a-new-repo-from-template)
+## Initializing a New Repository from the Template
 
-## Creating you project
+Ensure you have the latest versions of Rust and Cargo (via [rustup](https://rustup.rs/)). Follow these steps to initialize a new repository for your contract from our template:
+[How to Create a New Repo from the Template](https://github.com/soar-robotics/soarchain-contract-template/blob/master/README.md#creating-a-new-repo-from-template)
 
-As the name of the repository shows, these contracts are templates which means they are a placeholder and you need to replace it with your actual implementation and logic. Into the code there are places that should be replaced with your logic and they have been shown by comments.
+## Project Development
 
-## Using your project
+This repository serves as a template. It means you'll find placeholders that you need to replace with your actual implementation and logic. Look for comments in the code to guide you where replacements are needed.
 
-Once you have your custom repo, you probably could use some
-help from below on how to build the contract.
+
+## Using Your Customized Project
+
+After customizing the repository, you might need guidance on building your contract. The following section provides essential information.
 
 ## Prerequisites
 
-You need to have the `wasm32-unknown-unknown` target installed. 
-
-You can check that via:
+Ensure the `wasm32-unknown-unknown` target is installed:
 
 ```sh
 rustc --version
 cargo --version
-rustup target list --installed
-# if wasm32 is not listed above, run this
+rustup target list --installed 
+```
+
+
+# If wasm32 is not listed, run the following command:
+
+```sh
 rustup target add wasm32-unknown-unknown
 ```
 
-## Compiling and running the contract
+---
 
-Now that you created your custom contract, make sure you can compile and run it before
-making any changes. Go to [Deploy a Smart Contract](https://docs.soarchain.com/smart%20contracts/Deploy-a-Smart-Contract#deploy-a-smart-contract) and do all steps one by one.
+## Compiling and Running Your Contract
 
+With your customized contract ready, it's crucial to compile and run it to ensure everything is set up correctly. Follow the steps outlined in [Deploy a Smart Contract](https://docs.soarchain.com/smart%20contracts/Deploy-a-Smart-Contract#deploy-a-smart-contract) thoroughly.
 
-Please replace this README file with information about your specific project, and set some proper description in the README.
+Remember to update this README with information specific to your project, providing a detailed description of its functionality.
 
 ## Decentralized Verification
 
-It's not very practical to do a deep code review on every dependency you want to use, which is a big reason for the popularity of code audits in the blockchain world.
+Performing an in-depth code review for every dependency is impractical, leading to the rise of code audits in the blockchain sector.
 
-Luckily, there is an amazing project called [crev](https://github.com/crev-dev/cargo-crev/blob/master/cargo-crev/README.md) that provides `A cryptographically verifiable code review system for the cargo (Rust) package manager`.
+An effective solution is the [crev](https://github.com/crev-dev/cargo-crev/blob/master/cargo-crev/README.md) project, which offers `A cryptographically verifiable code review system for the cargo (Rust) package manager`.
 
-I recommend that CosmWasm contract developers get set up with this. If you want to use `cargo-crev`, please follow their [getting started guide](https://github.com/crev-dev/cargo-crev/blob/master/cargo-crev/src/doc/getting_started.md)
+We recommend CosmWasm contract developers to integrate this into their workflow. To get started with `cargo-crev`, follow their [Getting Started Guide](https://github.com/crev-dev/cargo-crev/blob/master/cargo-crev/src/doc/getting_started.md).
