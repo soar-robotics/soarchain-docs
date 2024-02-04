@@ -95,12 +95,12 @@ hide_table_of_contents: true
     <div class="col">
       <div class="card card-body h-100 d-flex flex-column">
         <a
-          href="/roadmap"
+          href="/category/smart-contracts"
           class="card-title card-link stretched-link"
         >
-          <h2>Roadmap</h2>
+          <h2>Smart Contracts</h2>
         </a>
-        <p class="card-text">Our latest Roadmap.
+        <p class="card-text">Learn about smart contracts.
         </p>
       </div>
     </div>
@@ -119,17 +119,6 @@ hide_table_of_contents: true
         ><h2>$MOTUS Token</h2></a>
         <p class="card-text">
           Start here for native $MOTUS token.
-        </p>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card card-body h-100 d-flex flex-column">
-        <a
-          href="/category/wallet"
-          class="card-title card-link stretched-link"
-        ><h2>Wallet</h2></a>
-        <p class="card-text">
-          Learn about Soarchain Wallets.
         </p>
       </div>
     </div>

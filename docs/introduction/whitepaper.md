@@ -7,11 +7,4 @@ hidden: true
 ---
 # White Paper
 
-🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧
-
-
-ℹ️ This section is currently under work in progress.<br />
-ℹ️ Feel free to check out our [Light Paper](https://www.soarchain.com/lightpaper)
-
-
-🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧 🚧
+[White paper](https://github.com/soar-robotics/soarchain-docs/blob/396b2b890300cb0e989fb6b2d0919a8be83bfaa6/WhitePaper/SoarChain_Whitepaper_1.pdf)
