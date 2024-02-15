@@ -2,13 +2,21 @@
 sidebar_position: 3
 ---
 
-# Initialize the Soarchain Node
+# Initialize the Soarchain 
 
 We strongly recommend to run the node with cosmovisor, so please refer here ​[cosmovisor](https://docs.soarchain.com/Validator/Cosmovisor) 
 
 ## Starting the Syncing Process
 
 Once you've set up your Soarchain full node, the next step is to start syncing it with the blockchain. Here's how you can initiate the syncing process:
+
+There are three methods to sync a node:
+
+1. [From genesis](#from-genesis)
+2. [Sync from a Snapshot](https://docs.soarchain.com/Validator/Sync-from-Snapshot) 
+3. Sync with state-sync
+
+### From genesis
 
 1. **Open your terminal** and ensure you're connected to your server where the Soarchain node is set up.
 
@@ -35,3 +43,7 @@ To monitor the progress of your node's syncing with the Soarchain blockchain, us
     - You will see various details about the syncing process, including the latest block height your node has synced to.
 
 By following these steps, you can effectively start syncing your Soarchain node and monitor its progress to ensure it is successfully staying up to date with the blockchain.
+
+## Binary Upgrades
+
+During the syncing process you will need to replace binaries at the correct height. Please refer to [Testnet-Upgrades](https://docs.soarchain.com/Validator/Testnet-Upgrades) 
