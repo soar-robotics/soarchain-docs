@@ -13,9 +13,9 @@ To keep your node in sync with the latest Soarchain testnet developments, follow
 
 ### Genesis Binary
 
-- **Genesis Binary Version:** The current Soarchain testnet genesis binary is version 0.2.5. It is available for download at the [Soar Robotics Testnet Binaries GitHub repository](https://github.com/soar-robotics/testnet-binaries/tree/main/v0.2.5).
+- **Genesis Binary Version:** The current Soarchain testnet genesis binary is version 0.2.5. It is available for download at the [Soarchain Testnet Binaries GitHub repository](https://github.com/soar-robotics/testnet-binaries/tree/main/v0.2.5).
 
-- **Initial Genesis:** Use this binary in conjunction with the initial genesis file, which can be found at the [Soar Robotics Testnet Validator Onboard GitHub repository](https://github.com/soar-robotics/testnet-validator-onboard/blob/main/release/genesis.json).
+- **Initial Genesis:** Use this binary in conjunction with the initial genesis file, which can be found at the [Soarchain Testnet Validator Onboard GitHub repository](https://github.com/soar-robotics/testnet-validator-onboard/blob/main/release/genesis.json).
 
 ### Planned Upgrade to V2
 

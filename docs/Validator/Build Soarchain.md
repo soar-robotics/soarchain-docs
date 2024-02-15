@@ -6,6 +6,8 @@ sidebar_position: 2
 
 ## Step 1: Download and Unzip the File
 
+ [Soarchain Testnet Validator Onboard GitHub repository](https://github.com/soar-robotics/testnet-validator-onboard/blob/main/release)
+
 1. **Locate the `release.zip` File:**
    - Ensure the `release.zip` file is downloaded to your local machine.
    - To confirm the file's location, list it directly:
