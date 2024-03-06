@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-## Deploy a Smart Contract
+# Deploy a Smart Contract
 
-### Clone `cw-template`
+## Clone `cw-template`
 
 For this example, we will use the [cw-template](https://github.com/CosmWasm/cw-template) repository with the counter example.
 
@@ -29,7 +29,7 @@ select `false`
 cd my-first-contract
 ```
 
-## Compile the wasm contract with stable toolchain 
+## Compile the wasm contract with stable toolchain
 
 To deploy smart contracts, you must compile the code and make it an executable wasm binary file. We will compile the wasm contract with stable toolchain.
 
@@ -74,9 +74,10 @@ cargo install cosmwasm-check
 
 Check some contracts:
 
-```
+```bash
 cosmwasm-check artifacts/my_first_contract.wasm
 ```
+
 After having a valid smart contract binary, it can be stored successfully in the chain.
 
 ## Store the binary in Soarchain
@@ -94,13 +95,13 @@ If you require additional clarification regarding any of the command flags,
 
 > - soarchaind tx wasm store : upload a wasm binary
 > - --from : name or address of private key with which to sign the tx.
-> -  --gas-prices : gas prices in decimal format to determine the transaction fee.
-> -  --gas : gas limit to set per-transaction. set to “auto” to calculate sufficient gas automatically
-> -  the chain-id is whatever chain-id you are working with (in the soarchain testnet case it is soarchaintestnet)
-> -  --gas-adjustment : adjustment factor to be multiplied against the estimate returned by the tx simulation.
-> -  -y : to skip tx broadcasting prompt confirmation.
-> -  --output : output format.
-> -  -b : transaction broadcasting mode
+> - --gas-prices : gas prices in decimal format to determine the transaction fee.
+> - --gas : gas limit to set per-transaction. set to “auto” to calculate sufficient gas automatically
+> - the chain-id is whatever chain-id you are working with (in the soarchain testnet case it is soarchaintestnet)
+> - --gas-adjustment : adjustment factor to be multiplied against the estimate returned by the tx simulation.
+> - -y : to skip tx broadcasting prompt confirmation.
+> - --output : output format.
+> - -b : transaction broadcasting mode
 
   </div>
 </details>
@@ -133,6 +134,7 @@ INIT='{"count":100}'
 soarchaind tx wasm instantiate $CODE_ID "$INIT" \
     --label "my first contract" --gas-prices 0.025umotus --gas auto --gas-adjustment 1.5 -b block -y --no-admin --chain-id soarchaintestnet --from mywallet 
 ```
+
 If you require additional clarification regarding any of the command flags,
 <details>
   <summary>Check them</summary>
@@ -140,7 +142,7 @@ If you require additional clarification regarding any of the command flags,
 
 > - soarchaind tx wasm instantiate :  instantiate a wasm contract using CODE_ID of the uploaded binary.
 > - --label : human-readable name for this contract in lists.
-> -  --no-admin : you must set this explicitly if you don’t want an admin.
+> - --no-admin : you must set this explicitly if you don’t want an admin.
 
   </div>
 </details>
@@ -152,7 +154,7 @@ CONTRACT_ADDR=$(soarchaind query wasm list-contract-by-code $CODE_ID --output js
 echo $CONTRACT_ADDR
 ```
 
-## Query the contract 
+## Query the contract
 
 Now, let’s see if the contract we deployed works well.
 
@@ -164,6 +166,7 @@ Send a get_count query to check the count value. The previously set INIT state i
 QUERY='{"get_count":{}}'
 soarchaind query wasm contract-state smart $CONTRACT_ADshDR "$QUERY" --output json
 ```
+
 soarchaind query wasm contract-state smart : calls contract with given address with query data and prints the returned result
 
 The output will be:
@@ -174,7 +177,7 @@ The output will be:
 
 ## Execute the Contract
 
-# Increment contract’s count
+### Increment contract’s count
 
 Send an increment transaction this time, one that raises the count value by +1. You must pay gas fees since the transaction alters the internal condition of the contract.
 
@@ -185,7 +188,7 @@ TRY_INCREMENT='{"increment": {}}'
 soarchaind tx wasm execute $CONTRACT_ADDR "$TRY_INCREMENT" --gas-prices 0.025umotus --gas auto --gas-adjustment 1.5 -y --chain-id soarchaintestnet --from mywallet
 ```
 
-# Reset contract’s count
+### Reset contract’s count
 
 Let's submit a reset transaction lastly. You must pay gas fees because reset transactions, like increments, also alter the internal state of contracts.
 

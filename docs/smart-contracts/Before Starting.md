@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-## Install Rust
+# Install Rust
 
 The primary programming language utilized by CosmWasm smart contracts is Rust. Although any programming language may potentially be used to create WASM smart contracts, Rust is the best choice for CosmWasm libraries and tools.
 
-### Step 1: Install Rust
+## Step 1: Install Rust
 
 - Visit the official Rust website at [https://www.rust-lang.org/](https://www.rust-lang.org/).
 - Follow the installation instructions specific to your operating system.
@@ -29,4 +29,3 @@ rustup target add wasm32-unknown-unknown
 cargo install cargo-generate --features vendored-openssl
 cargo install cargo-run-script
 ```
-

@@ -6,7 +6,6 @@ sidebar_position: 4
 
 Welcome to the Soarchain Smart Contract guide! This guie is designed to help you build smart contracts in Rust, specifically for deployment in modules compatible with the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk). It's crafted for all chains that support this functionality. To get a comprehensive understanding of the underlying framework, we highly recommend reviewing the detailed overview provided in the [Soarchain contract templates repository](https://github.com/soar-robotics/soarchain-contract-template/blob/master/README.md). This guide presumes a foundational knowledge of blockchain theory and a readiness to dive into coding.
 
-
 **Essential Blockchain & DApp Knowledge** — This documentation assumes your familiarity with blockchain concepts, DApps, and the basic operational knowledge of Blockchain.
 
 ## Initializing a New Repository from the Template
@@ -17,7 +16,6 @@ Ensure you have the latest versions of Rust and Cargo (via [rustup](https://rust
 ## Project Development
 
 This repository serves as a template. It means you'll find placeholders that you need to replace with your actual implementation and logic. Look for comments in the code to guide you where replacements are needed.
-
 
 ## Using Your Customized Project
 
@@ -33,14 +31,11 @@ cargo --version
 rustup target list --installed 
 ```
 
+## If wasm32 is not listed, run the following command
 
-# If wasm32 is not listed, run the following command:
-
-```sh
+```shell
 rustup target add wasm32-unknown-unknown
 ```
-
----
 
 ## Compiling and Running Your Contract
 

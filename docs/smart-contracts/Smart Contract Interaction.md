@@ -2,14 +2,13 @@
 sidebar_position: 4
 ---
 
-## Interaction with a Smart Contract on soarchain
-
+# Interaction with a Smart Contract on soarchain
 
 This guide will aim to provide you all information about interacting with Soarchain Smart contracts via JavaScript runtimes such as Node.js and the browser. This is useful for dApp developers who need to create their own contracts on the Soarchain. There are some requirements that need to be done before starting to develop.
 
 **Basic Blockchain & DApp Understanding** — These documents suppose you are familiar with, or having used DApps before. We also will be assuming that you have Blockchain  installed and have a basic understanding of it!
 
-### Prerequisites
+## Prerequisites
 
 * Smart contract should be written using Rust language
 * Smart contract should already be deployed into the Soarchain network
@@ -17,7 +16,6 @@ This guide will aim to provide you all information about interacting with Soarch
 * A local Soarchain node should be launched - (Not needed when connecting to mainnet)
 
 You will find more information about how can write Cosmwasm smart contracts from [Here](https://github.com/CosmWasm)
-
 
 ### Setting Up the Project
 
@@ -28,21 +26,19 @@ You will find more information about how can write Cosmwasm smart contracts from
 * Create a wallet by the mnemonic
 * Create a client by "soar" prefix
 
-
-
 Once, the contract is uploaded to the chain with a Code Id and is ready to be instantiated.
 
 **First** Define a rpc endpoint and create a client object:
 
-
 ```shell
 let rpcEndpoint = "http://localhost:26657/";
 ```
+
 OR you can also connect to the devnet by replacing rpcEndpoint
 
 **Second** Create a wallet with a specific mnemonic and soar prefix. Using a wallet object we can configure the client object which helps to send to the node and receive from the node.
 
-```
+```shell
     let wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic, {
         prefix: 'soar',
     });
@@ -60,14 +56,13 @@ Now once you have deployed the smart contract you can get the contract address f
 
 The contract we are interacting with has a few simple functions. 'Query' is for fetching the data from the node related to the contract. These two functions can be called via by using the queryContractSmart and getContract methods. For making a query to the contract we use the below code.
 
-
 ### Get Contract
 
 For getting a contract from a specific address, you may fetch all contracts from the node and pick the one that you need it or like what mentioned above you can query for a specific contract by giving the contract address. We assume you do not have a specific address.
 
 Sample of Soarchain contract address: `soar14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9sg0qwca`
 
-```
+```shell
 const codeId = 1
 const contracts = await client.getContracts(codeId)
 const contractAddress = contracts[0].address
@@ -86,7 +81,7 @@ The contract we are interacting with has a few simple functions for changing the
 
 Let's see how it works:
 
-```
+```shell
   const contractAddress = "soar14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9sg0qwca"
   const msg = {"increment": {}}
   let fee = {
