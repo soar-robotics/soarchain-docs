@@ -1,0 +1,8 @@
+{
+    "label": "SoarChain Data Processor Framework",
+    "position": 14,
+    "link": {
+      "type": "generated-index",
+      "description": "SoarChain provides robust data processing solution for handling vehicle data from an MQTT broker."
+    }
+}
