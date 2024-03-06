@@ -49,4 +49,8 @@ git clone https://github.com/soar-robotics/soarchain-data-processing-framework.g
 cd soarchain-data-processing-framework
 ```
 
+### Step 6: Configure Environment
+
+Find the .`env` file and fill in the `broker_ip` and `broker_port` fields with the correct information. Set the Topic as `dpr/{your_dpr_id}`. This ensures proper communication with the SoarChain broker.
+
 Now you're set to begin streaming the specific vehicle data you desire from Motus Minis.
